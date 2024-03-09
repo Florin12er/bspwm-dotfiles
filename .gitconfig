@@ -1,0 +1,30 @@
+[user]
+	email = apetreiflorin236@gmail.com
+	name = florin
+    [color]
+    ui = always
+[color "branch"]
+    current = #EFB087  # Mauve
+    local = #EFB087     # Mauve
+    remote = #EFB087    # Mauve
+[color "diff"]
+    meta = #FEDCD2     # Peach
+    frag = #FEDCD2     # Peach
+    old = #FEDCD2      # Peach
+    new = #FEDCD2      # Peach
+[color "status"]
+    added = #7BC8A4    # Green
+    changed = #7BC8A4  # Green
+    untracked = #7BC8A4  # Green
+[core]
+    editor = vim
+[alias]
+    co = checkout
+    ci = commit
+    br = branch
+    st = status
+
+[init]
+	defaultBranch = main
+[safe]
+	directory = /opt/flutter
