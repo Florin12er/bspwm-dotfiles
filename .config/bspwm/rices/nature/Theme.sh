@@ -18,7 +18,9 @@ set_bspwm_config() {
 }
 source /home/florin/scripts/changetheme.sh Catppuccin-Mocha-Standard-Blue-Dark Tela-circle-dark
 source /home/florin/scripts/vim-theme.sh catppuccin-mocha
+/home/florin/scripts/vscode.sh "Catppuccin Mocha" "file-icons"
 source /home/florin/scripts/reset.sh nemo
+
 starship preset nerd-font-symbols -o ~/.config/starship.toml
 feh --bg-fill /home/florin/.config/bspwm/rices/nature/walls/matt-carlson-spring-mountain.png
 

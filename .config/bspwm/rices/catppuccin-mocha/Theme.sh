@@ -24,6 +24,7 @@ set_bspwm_config() {
 source /home/florin/scripts/changetheme.sh Catppuccin-Mocha-Standard-Blue-Dark Tela-circle-dracula
 source /home/florin/scripts/vim-theme.sh catppuccin-mocha
 source /home/florin/scripts/reset.sh nemo
+/home/florin/scripts/vscode.sh "Catppuccin Mocha" "file-icons"
 starship preset pastel-powerline -o ~/.config/starship.toml
 feh --bg-fill /home/florin/.config/bspwm/rices/catppuccin-mocha/walls/mushroom-purple.jpg
 

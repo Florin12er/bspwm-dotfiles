@@ -25,6 +25,7 @@ set_bspwm_config() {
 }
 source /home/florin/scripts/changetheme.sh Catppuccin-Latte-Standard-Blue-Light Tela-circle-blue
 source /home/florin/scripts/vim-theme.sh catppuccin-latte
+/home/florin/scripts/vscode.sh "Catppuccin Latte" "file-icons"
 source /home/florin/scripts/reset.sh nemo
 starship preset tokyo-night -o ~/.config/starship.toml
 feh --bg-fill /home/florin/.config/bspwm/rices/catppuccin-latte/walls/acrylic.jpg

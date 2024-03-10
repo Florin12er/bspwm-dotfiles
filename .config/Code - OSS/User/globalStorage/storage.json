@@ -533,7 +533,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar"
+                                    "label": "&&Primary Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -863,7 +864,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1732,26 +1734,26 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#1e1f22",
+    "themeBackground": "#161925",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#bcbec4",
-            "background": "#1e1f22",
-            "editorBackground": "#1e1f22",
-            "titleBarBackground": "#181818",
-            "activityBarBackground": "#181818",
-            "sideBarBackground": "#181818",
-            "statusBarBackground": "#181818",
-            "statusBarNoFolderBackground": "#1e1f22"
+            "foreground": "#f8f8f2",
+            "background": "#161925",
+            "editorBackground": "#161925",
+            "titleBarBackground": "#161925",
+            "activityBarBackground": "#232634",
+            "sideBarBackground": "#161925",
+            "statusBarBackground": "#11131c",
+            "statusBarNoFolderBackground": "#11131c"
         },
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 300,
             "statusBarHeight": 22,
             "windowBorder": false
         }
@@ -1761,10 +1763,10 @@
             "backupPath": "/home/florin/.config/Code - OSS/Backups/1710014946120",
             "uiState": {
                 "mode": 1,
-                "x": 2591,
-                "y": 707,
-                "width": 631,
-                "height": 667
+                "x": 2005,
+                "y": 9,
+                "width": 2467,
+                "height": 1423
             }
         },
         "openedWindows": []

@@ -20,6 +20,7 @@ set_bspwm_config() {
 source /home/florin/scripts/changetheme.sh materia-cyberpunk-neon candy-icons
 source /home/florin/scripts/vim-theme.sh cyberdream
 source /home/florin/scripts/reset.sh nemo
+/home/florin/scripts/vscode.sh "Cyberpunk" "sweet-vscode-icons"
 starship preset tokyo-night -o ~/.config/starship.toml
 feh --bg-fill /home/florin/.config/bspwm/rices/cyberpunk/walls/cyberpunk_car.png
 

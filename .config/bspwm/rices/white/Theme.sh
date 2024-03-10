@@ -19,6 +19,7 @@ set_bspwm_config() {
 source /home/florin/scripts/changetheme.sh rose-pine-dawn-gtk Tela-circle-light
 source /home/florin/scripts/vim-theme.sh rose-pine-dawn
 source /home/florin/scripts/reset.sh nemo
+/home/florin/scripts/vscode.sh "Rosé Pine Dawn" "file-icons"
 starship preset tokyo-night -o ~/.config/starship.toml
 feh --bg-fill /home/florin/.config/bspwm/rices/white/walls/chrisostrowski-the-esteemed-palace-light.jpg
 
