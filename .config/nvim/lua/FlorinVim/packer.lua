@@ -16,14 +16,99 @@ require("lazy").setup({
 			"stevearc/conform.nvim",
 			event = { "BufReadPre", "BufNewFile" },
 		},
-		"wbthomason/packer.nvim",
 		"hrsh7th/cmp-path",
 		{ "ellisonleao/gruvbox.nvim", priority = 1000, config = true, opts = ... },
 		{ "rose-pine/neovim", name = "rose-pine" },
 		"simrat39/symbols-outline.nvim",
+		{
+			"folke/noice.nvim",
+			event = "VeryLazy",
+			opts = {},
+			dependencies = {
+				"MunifTanjim/nui.nvim",
+				"rcarriga/nvim-notify",
+			},
+		},
+		{
+			"iamcco/markdown-preview.nvim",
+			cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
+			ft = { "markdown" },
+			build = function()
+				vim.fn["mkdp#util#install"]()
+			end,
+		},
+		"preservim/vim-pencil",
+		{
+			"folke/twilight.nvim",
+			opts = {
+				{
+					dimming = {
+						alpha = 0.25, -- amount of dimming
+						color = { "Normal", "#ffffff" },
+						term_bg = "#00000000", -- if guibg=NONE, this will be used to calculate text color
+						inactive = false, -- when true, other windows will be fully dimmed (unless they contain the same buffer)
+					},
+					context = 10, -- amount of lines we will try to show around the current line
+					treesitter = true, -- use treesitter when available for the filetype
+					expand = { -- for treesitter, we we always try to expand to the top-most ancestor with these types
+						"function",
+						"method",
+						"table",
+						"if_statement",
+					},
+					exclude = {}, -- exclude these filetypes
+				},
+			},
+		},
+		{
+			"folke/zen-mode.nvim",
+			opts = {
+				{
+					window = {
+						backdrop = 1, -- shade the backdrop of the Zen window. Set to 1 to keep the same as Normal
+						width = 100, -- width of the Zen window
+						height = 1, -- heigh0 of the Zen window
+						options = {
+							-- signcolumn = "no", -- disable signcolumn
+							-- number = false, -- disable number column
+							-- relativenumber = false, -- disable relative numbers
+							-- cursorline = false, -- disable cursorline
+							-- cursorcolumn = false, -- disable cursor column
+							-- foldcolumn = "0", -- disable fold column
+							-- list = false, -- disable whitespace characters
+						},
+					},
+					plugins = {
+						options = {
+							enabled = true,
+							ruler = false, -- disables the ruler text in the cmd line area
+							showcmd = false, -- disables the command in the last line of the screen
+							laststatus = 0, -- turn off the statusline in zen mode
+						},
+						twilight = { enabled = true }, -- enable to start Twilight when zen mode opens
+						gitsigns = { enabled = true }, -- disables git signs
+						tmux = { enabled = true }, -- disables the tmux statusline
+						alacritty = {
+							enabled = true,
+							font = "+4", -- font size
+						},
+					},
+					on_open = function(win) end,
+					on_close = function() end,
+				},
+			},
+		},
 		"hrsh7th/cmp-nvim-lsp-signature-help",
 		"shaunsingh/nord.nvim",
 		"ptzz/lf.vim",
+		{
+			"kylechui/nvim-surround",
+			version = "*", -- Use for stability; omit to use `main` branch for the latest features
+			event = "VeryLazy",
+			config = function()
+				require("nvim-surround").setup()
+			end,
+		},
 		"voldikss/vim-floaterm",
 		"amarakon/nvim-cmp-buffer-lines",
 		{
@@ -38,12 +123,31 @@ require("lazy").setup({
 				workspaces = {
 					{
 						name = "personal",
-						path = "~/vaults/personal",
+						path = "~/Obsidian/main vault/",
 					},
 					{
 						name = "work",
-						path = "~/vaults/work",
+						path = "~/Obsidian/main vault/",
 					},
+				},
+			},
+			notes_subdir = "notes",
+			completion = {
+				nvim_cmp = true,
+				min_chars = 2,
+			},
+			mappings = {
+				["gf"] = {
+					action = function()
+						return require("obsidian").util.gf_passthrough()
+					end,
+					opts = { noremap = false, expr = true, buffer = true },
+				},
+				["<leader>ch"] = {
+					action = function()
+						return require("obsidian").util.toggle_checkbox()
+					end,
+					opts = { buffer = true },
 				},
 			},
 		},
@@ -148,9 +252,14 @@ require("lazy").setup({
 			"neovim/nvim-lspconfig",
 		},
 		{ "hrsh7th/nvim-cmp", "hrsh7th/cmp-nvim-lsp" },
-		{ "L3MON4D3/LuaSnip", dependencies = { "rafamadriz/friendly-snippets", "saadparwaiz1/cmp_luasnip" } },
+		{
+			"L3MON4D3/LuaSnip",
+			dependencies = {
+				"rafamadriz/friendly-snippets",
+				"saadparwaiz1/cmp_luasnip",
+			},
+		},
 		"nvim-tree/nvim-web-devicons",
-		"wbthomason/packer.nvim",
 		{ "catppuccin/nvim", name = "catppuccin", priority = 1000 },
 		"maxmellon/vim-jsx-pretty",
 		"onsails/lspkind.nvim",
@@ -176,13 +285,13 @@ require("lazy").setup({
 		{
 			"Exafunction/codeium.vim",
 			config = function()
-				vim.keymap.set("i", "<C-g>", function()
+				vim.keymap.set("i", "<C-c>", function()
 					return vim.fn["codeium#Accept"]()
 				end, { expr = true, silent = true })
-				vim.keymap.set("i", "<c-;>", function()
+				vim.keymap.set("i", "<c-w>", function()
 					return vim.fn["codeium#CycleCompletions"](1)
 				end, { expr = true, silent = true })
-				vim.keymap.set("i", "<c-,>", function()
+				vim.keymap.set("i", "<c-s>", function()
 					return vim.fn["codeium#CycleCompletions"](-1)
 				end, { expr = true, silent = true })
 				vim.keymap.set("i", "<c-x>", function()
@@ -194,35 +303,18 @@ require("lazy").setup({
 		"ThePrimeagen/vim-be-good",
 		"nvim-lua/plenary.nvim",
 		{
+			"2kabhishek/nerdy.nvim",
+			dependencies = {
+				"stevearc/dressing.nvim",
+				"nvim-telescope/telescope.nvim",
+			},
+			cmd = "Nerdy",
+		},
+		{
 			"goolord/alpha-nvim",
 			dependencies = {
 				"nvim-tree/nvim-web-devicons",
 			},
-
-			config = function()
-				local alpha = require("alpha")
-				local dashboard = require("alpha.themes.startify")
-
-				dashboard.section.header.val = {
-					[[                                                                       ]],
-					[[                                                                       ]],
-					[[                                                                       ]],
-					[[                                                                       ]],
-					[[                                                                     ]],
-					[[       ████ ██████           █████      ██                     ]],
-					[[      ███████████             █████                             ]],
-					[[      █████████ ███████████████████ ███   ███████████   ]],
-					[[     █████████  ███    █████████████ █████ ██████████████   ]],
-					[[    █████████ ██████████ █████████ █████ █████ ████ █████   ]],
-					[[  ███████████ ███    ███ █████████ █████ █████ ████ █████  ]],
-					[[ ██████  █████████████████████ ████ █████ █████ ████ ██████ ]],
-					[[                                                                       ]],
-					[[                                                                       ]],
-					[[                                                                       ]],
-				}
-
-				alpha.setup(dashboard.opts)
-			end,
 		},
 		"brenoprata10/nvim-highlight-colors",
 		"nvim-ts-autotag",

@@ -33,7 +33,6 @@ lspconfig.lua_ls.setup({
 })
 lspconfig.pylsp.setup({
 	capabilities = capabilities,
-	on_attach = on_attach,
 	settings = {
 		pylsp = {
 			plugins = {
@@ -71,8 +70,7 @@ lspconfig.jdtls.setup({
 lspconfig.ltex.setup({
 	capabilities = capabilities,
 	cmd = { "ltex-ls" },
-	on_attach = on_attach,
-	filetypes = { "tex", "plaintex", "bib", "bibtex" },
+	filetypes = { "tex", "plaintex", "bib", "bibtex", "markdown" },
 })
 lspconfig.tsserver.setup({
 	capabilities = capabilities,

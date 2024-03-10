@@ -35,8 +35,12 @@ vim.cmd("filetype plugin on")
 vim.cmd(":set termguicolors")
 vim.cmd([[autocmd VimEnter * LspStart<CR>]])
 vim.opt.updatetime = 50
-vim.opt.colorcolumn = "100"
 vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
 vim.g.python3_host_prog = "/usr/local/bin/python3.12"
 vim.cmd("let $PATH .= ':/home/florin/.nix-profile/bin'")
+vim.opt_local.conceallevel = 2
+--vim.opt.colorcolumn = "100"
 vim.cmd("highlight ColorColumn ctermbg=none guibg=#89b4fa")
+require("notify").setup({
+	background_colour = "#000000",
+})

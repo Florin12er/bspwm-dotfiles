@@ -45,4 +45,7 @@ require("catppuccin").setup({
 		-- For more plugins integrations please scroll down (https://github.com/catppuccin/nvim#integrations)
 	},
 })
-vim.cmd([[colorscheme catppuccin-mocha]])
+require("rose-pine").setup({
+	transparent_background = true,
+})
+vim.cmd([[colorscheme cyberdream]])
