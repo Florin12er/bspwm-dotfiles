@@ -1,0 +1,45 @@
+#compdef sqv
+
+autoload -U is-at-least
+
+_sqv() {
+    typeset -A opt_args
+    typeset -a _arguments_options
+    local ret=1
+
+    if is-at-least 5.2; then
+        _arguments_options=(-s -S -C)
+    else
+        _arguments_options=(-s -C)
+    fi
+
+    local context curcontext="$curcontext" state line
+    _arguments "${_arguments_options[@]}" \
+'*--keyring=[A keyring.  Can be given multiple times.]' \
+'-n+[The number of valid signatures to return success.  Default: 1]' \
+'--signatures=[The number of valid signatures to return success.  Default: 1]' \
+'--not-before=[Consider signatures created before TIMESTAMP as invalid.  If a date is given, 00:00:00 is used for the time. 
+\[default: no constraint\]]' \
+'--not-after=[Consider signatures created after TIMESTAMP as invalid.  If a date is given, 23:59:59 is used for the time. 
+\[default: now\]]' \
+'-v[Be verbose.]' \
+'--verbose[Be verbose.]' \
+'-h[Prints help information]' \
+'--help[Prints help information]' \
+'-V[Prints version information]' \
+'--version[Prints version information]' \
+':sig-file -- File containing the detached signature.:_files' \
+':file -- File to verify.:_files' \
+&& ret=0
+    
+}
+
+(( $+functions[_sqv_commands] )) ||
+_sqv_commands() {
+    local commands; commands=(
+        
+    )
+    _describe -t commands 'sqv commands' commands "$@"
+}
+
+_sqv "$@"
