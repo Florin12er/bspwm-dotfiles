@@ -1,0 +1,325 @@
+2024-03-08 21:28:16.083 [info] Getting Manifest... pkief.material-product-icons
+2024-03-08 21:28:16.222 [info] Installing extension: pkief.material-product-icons
+2024-03-08 21:28:16.782 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+- 
+2024-03-08 21:28:16.786 [info] Extension signature verification is not done: pkief.material-product-icons
+2024-03-08 21:28:16.799 [info] Extracted extension to file:///home/florin/.vscode-oss/extensions/pkief.material-product-icons-1.7.0-universal: pkief.material-product-icons
+2024-03-08 21:28:16.802 [info] Renamed to /home/florin/.vscode-oss/extensions/pkief.material-product-icons-1.7.0-universal
+2024-03-08 21:28:16.802 [info] Extracting extension completed. pkief.material-product-icons
+2024-03-08 21:28:16.808 [info] Extension installed successfully: pkief.material-product-icons
+2024-03-08 21:28:16.883 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/florin/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/florin/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)
+2024-03-08 21:28:43.926 [info] Getting Manifest... laurenttreguier.vscode-simple-icons
+2024-03-08 21:28:44.064 [info] Installing extension: laurenttreguier.vscode-simple-icons
+2024-03-08 21:28:44.859 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+- 
+2024-03-08 21:28:44.860 [info] Extension signature verification is not done: laurenttreguier.vscode-simple-icons
+2024-03-08 21:28:45.089 [info] Extracted extension to file:///home/florin/.vscode-oss/extensions/laurenttreguier.vscode-simple-icons-1.16.0-universal: laurenttreguier.vscode-simple-icons
+2024-03-08 21:28:45.100 [info] Renamed to /home/florin/.vscode-oss/extensions/laurenttreguier.vscode-simple-icons-1.16.0-universal
+2024-03-08 21:28:45.101 [info] Extracting extension completed. laurenttreguier.vscode-simple-icons
+2024-03-08 21:28:45.105 [info] Extension installed successfully: laurenttreguier.vscode-simple-icons
+2024-03-08 21:28:45.180 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/florin/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/florin/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)
+2024-03-08 21:31:00.409 [info] Getting Manifest... letgamer.sweet-vscode-icons
+2024-03-08 21:31:00.545 [info] Installing extension: letgamer.sweet-vscode-icons
+2024-03-08 21:31:01.810 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+- 
+2024-03-08 21:31:01.811 [info] Extension signature verification is not done: letgamer.sweet-vscode-icons
+2024-03-08 21:31:01.847 [info] Extracted extension to file:///home/florin/.vscode-oss/extensions/letgamer.sweet-vscode-icons-0.0.1-universal: letgamer.sweet-vscode-icons
+2024-03-08 21:31:01.850 [info] Renamed to /home/florin/.vscode-oss/extensions/letgamer.sweet-vscode-icons-0.0.1-universal
+2024-03-08 21:31:01.850 [info] Extracting extension completed. letgamer.sweet-vscode-icons
+2024-03-08 21:31:01.855 [info] Extension installed successfully: letgamer.sweet-vscode-icons
+2024-03-08 21:31:01.928 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/florin/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/florin/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)
+2024-03-08 21:33:49.245 [info] Getting Manifest... asapdotid.manjaro-dark
+2024-03-08 21:33:49.781 [info] Installing extension: asapdotid.manjaro-dark
+2024-03-08 21:33:50.312 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+- 
+2024-03-08 21:33:50.313 [info] Extension signature verification is not done: asapdotid.manjaro-dark
+2024-03-08 21:33:50.318 [info] Extracted extension to file:///home/florin/.vscode-oss/extensions/asapdotid.manjaro-dark-0.0.10-universal: asapdotid.manjaro-dark
+2024-03-08 21:33:50.320 [info] Renamed to /home/florin/.vscode-oss/extensions/asapdotid.manjaro-dark-0.0.10-universal
+2024-03-08 21:33:50.321 [info] Extracting extension completed. asapdotid.manjaro-dark
+2024-03-08 21:33:50.325 [info] Extension installed successfully: asapdotid.manjaro-dark
+2024-03-08 21:33:50.398 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/florin/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/florin/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)
+2024-03-08 21:34:50.461 [info] Getting Manifest... proxzima.sweetdracula
+2024-03-08 21:34:50.597 [info] Installing extension: proxzima.sweetdracula
+2024-03-08 21:34:51.367 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+- 
+2024-03-08 21:34:51.368 [info] Extension signature verification is not done: proxzima.sweetdracula
+2024-03-08 21:34:51.377 [info] Extracted extension to file:///home/florin/.vscode-oss/extensions/proxzima.sweetdracula-1.0.9-universal: proxzima.sweetdracula
+2024-03-08 21:34:51.379 [info] Renamed to /home/florin/.vscode-oss/extensions/proxzima.sweetdracula-1.0.9-universal
+2024-03-08 21:34:51.380 [info] Extracting extension completed. proxzima.sweetdracula
+2024-03-08 21:34:51.385 [info] Extension installed successfully: proxzima.sweetdracula
+2024-03-08 21:34:51.458 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/florin/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/florin/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)
+2024-03-08 21:36:21.300 [info] Getting Manifest... pkief.material-icon-theme
+2024-03-08 21:36:21.530 [info] Installing extension: pkief.material-icon-theme
+2024-03-08 21:36:23.019 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+- 
+2024-03-08 21:36:23.020 [info] Extension signature verification is not done: pkief.material-icon-theme
+2024-03-08 21:36:23.248 [info] Extracted extension to file:///home/florin/.vscode-oss/extensions/pkief.material-icon-theme-4.34.0-universal: pkief.material-icon-theme
+2024-03-08 21:36:23.259 [info] Renamed to /home/florin/.vscode-oss/extensions/pkief.material-icon-theme-4.34.0-universal
+2024-03-08 21:36:23.260 [info] Extracting extension completed. pkief.material-icon-theme
+2024-03-08 21:36:23.267 [info] Extension installed successfully: pkief.material-icon-theme
+2024-03-08 21:36:23.339 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/florin/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/florin/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)
+2024-03-08 21:37:43.347 [info] Getting Manifest... marlosirapuan.nord-deep
+2024-03-08 21:37:43.486 [info] Installing extension: marlosirapuan.nord-deep
+2024-03-08 21:37:44.516 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+- 
+2024-03-08 21:37:44.517 [info] Extension signature verification is not done: marlosirapuan.nord-deep
+2024-03-08 21:37:44.523 [info] Extracted extension to file:///home/florin/.vscode-oss/extensions/marlosirapuan.nord-deep-0.1.623-universal: marlosirapuan.nord-deep
+2024-03-08 21:37:44.525 [info] Renamed to /home/florin/.vscode-oss/extensions/marlosirapuan.nord-deep-0.1.623-universal
+2024-03-08 21:37:44.525 [info] Extracting extension completed. marlosirapuan.nord-deep
+2024-03-08 21:37:44.530 [info] Extension installed successfully: marlosirapuan.nord-deep
+2024-03-08 21:37:44.604 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/florin/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/florin/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)
+2024-03-08 21:40:20.825 [info] Getting Manifest... file-icons.file-icons
+2024-03-08 21:40:20.976 [info] Installing extension: file-icons.file-icons
+2024-03-08 21:40:22.228 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+- 
+2024-03-08 21:40:22.228 [info] Extension signature verification is not done: file-icons.file-icons
+2024-03-08 21:40:22.240 [info] Extracted extension to file:///home/florin/.vscode-oss/extensions/file-icons.file-icons-1.1.0-universal: file-icons.file-icons
+2024-03-08 21:40:22.242 [info] Renamed to /home/florin/.vscode-oss/extensions/file-icons.file-icons-1.1.0-universal
+2024-03-08 21:40:22.242 [info] Extracting extension completed. file-icons.file-icons
+2024-03-08 21:40:22.247 [info] Extension installed successfully: file-icons.file-icons
+2024-03-08 21:40:22.320 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/florin/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/florin/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)
+2024-03-08 21:41:10.915 [info] Getting Manifest... sainnhe.gruvbox-material
+2024-03-08 21:41:11.074 [info] Installing extension: sainnhe.gruvbox-material
+2024-03-08 21:41:11.701 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+- 
+2024-03-08 21:41:11.702 [info] Extension signature verification is not done: sainnhe.gruvbox-material
+2024-03-08 21:41:11.724 [info] Extracted extension to file:///home/florin/.vscode-oss/extensions/sainnhe.gruvbox-material-6.5.2-universal: sainnhe.gruvbox-material
+2024-03-08 21:41:11.726 [info] Renamed to /home/florin/.vscode-oss/extensions/sainnhe.gruvbox-material-6.5.2-universal
+2024-03-08 21:41:11.727 [info] Extracting extension completed. sainnhe.gruvbox-material
+2024-03-08 21:41:11.733 [info] Extension installed successfully: sainnhe.gruvbox-material
+2024-03-08 21:41:11.806 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/florin/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/florin/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)
+2024-03-08 21:41:21.563 [info] Getting Manifest... jdinhlife.gruvbox
+2024-03-08 21:41:21.702 [info] Installing extension: jdinhlife.gruvbox
+2024-03-08 21:41:22.788 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+- 
+2024-03-08 21:41:22.788 [info] Extension signature verification is not done: jdinhlife.gruvbox
+2024-03-08 21:41:22.805 [info] Extracted extension to file:///home/florin/.vscode-oss/extensions/jdinhlife.gruvbox-1.18.0-universal: jdinhlife.gruvbox
+2024-03-08 21:41:22.807 [info] Renamed to /home/florin/.vscode-oss/extensions/jdinhlife.gruvbox-1.18.0-universal
+2024-03-08 21:41:22.807 [info] Extracting extension completed. jdinhlife.gruvbox
+2024-03-08 21:41:22.811 [info] Extension installed successfully: jdinhlife.gruvbox
+2024-03-08 21:41:22.886 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/florin/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/florin/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)
+2024-03-08 21:45:04.541 [info] Getting Manifest... icyleaf.gatito-theme-fork
+2024-03-08 21:45:04.711 [info] Installing extension: icyleaf.gatito-theme-fork
+2024-03-08 21:45:07.471 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+- 
+2024-03-08 21:45:07.471 [info] Extension signature verification is not done: icyleaf.gatito-theme-fork
+2024-03-08 21:45:07.513 [info] Extracted extension to file:///home/florin/.vscode-oss/extensions/icyleaf.gatito-theme-fork-0.3.0-universal: icyleaf.gatito-theme-fork
+2024-03-08 21:45:07.515 [info] Renamed to /home/florin/.vscode-oss/extensions/icyleaf.gatito-theme-fork-0.3.0-universal
+2024-03-08 21:45:07.516 [info] Extracting extension completed. icyleaf.gatito-theme-fork
+2024-03-08 21:45:07.521 [info] Extension installed successfully: icyleaf.gatito-theme-fork
+2024-03-08 21:45:07.594 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/florin/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/florin/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)
+2024-03-08 21:45:35.028 [info] Getting Manifest... catppuccin.catppuccin-vsc-pack
+2024-03-08 21:45:35.164 [info] Installing extension: catppuccin.catppuccin-vsc-pack
+2024-03-08 21:45:35.413 [info] Getting Manifest... catppuccin.catppuccin-vsc-icons
+2024-03-08 21:45:35.620 [info] Getting Manifest... catppuccin.catppuccin-vsc
+2024-03-08 21:45:36.292 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+- 
+2024-03-08 21:45:36.293 [info] Extension signature verification is not done: catppuccin.catppuccin-vsc-pack
+2024-03-08 21:45:36.296 [info] Extracted extension to file:///home/florin/.vscode-oss/extensions/catppuccin.catppuccin-vsc-pack-1.0.1-universal: catppuccin.catppuccin-vsc-pack
+2024-03-08 21:45:36.298 [info] Renamed to /home/florin/.vscode-oss/extensions/catppuccin.catppuccin-vsc-pack-1.0.1-universal
+2024-03-08 21:45:36.298 [info] Extracting extension completed. catppuccin.catppuccin-vsc-pack
+2024-03-08 21:45:36.302 [info] Extension installed successfully: catppuccin.catppuccin-vsc-pack
+2024-03-08 21:45:36.376 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/florin/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/florin/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)
+2024-03-08 21:46:25.321 [info] Getting Manifest... anweber.dot-icons
+2024-03-08 21:46:25.493 [info] Installing extension: anweber.dot-icons
+2024-03-08 21:46:26.576 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+- 
+2024-03-08 21:46:26.577 [info] Extension signature verification is not done: anweber.dot-icons
+2024-03-08 21:46:26.606 [info] Extracted extension to file:///home/florin/.vscode-oss/extensions/anweber.dot-icons-0.5.0-universal: anweber.dot-icons
+2024-03-08 21:46:26.608 [info] Renamed to /home/florin/.vscode-oss/extensions/anweber.dot-icons-0.5.0-universal
+2024-03-08 21:46:26.609 [info] Extracting extension completed. anweber.dot-icons
+2024-03-08 21:46:26.613 [info] Extension installed successfully: anweber.dot-icons
+2024-03-08 21:46:26.686 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/florin/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/florin/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)
+2024-03-08 21:52:35.535 [info] Getting Manifest... mateuszdrewniak.theme-dracula-dark-plus
+2024-03-08 21:52:35.707 [info] Installing extension: mateuszdrewniak.theme-dracula-dark-plus
+2024-03-08 21:52:36.535 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+- 
+2024-03-08 21:52:36.535 [info] Extension signature verification is not done: mateuszdrewniak.theme-dracula-dark-plus
+2024-03-08 21:52:36.541 [info] Extracted extension to file:///home/florin/.vscode-oss/extensions/mateuszdrewniak.theme-dracula-dark-plus-2.24.4-universal: mateuszdrewniak.theme-dracula-dark-plus
+2024-03-08 21:52:36.543 [info] Renamed to /home/florin/.vscode-oss/extensions/mateuszdrewniak.theme-dracula-dark-plus-2.24.4-universal
+2024-03-08 21:52:36.544 [info] Extracting extension completed. mateuszdrewniak.theme-dracula-dark-plus
+2024-03-08 21:52:36.548 [info] Extension installed successfully: mateuszdrewniak.theme-dracula-dark-plus
+2024-03-08 21:52:36.623 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/florin/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/florin/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)
+2024-03-08 21:53:25.584 [info] Getting Manifest... sdras.night-owl
+2024-03-08 21:53:26.147 [info] Installing extension: sdras.night-owl
+2024-03-08 21:53:27.531 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+- 
+2024-03-08 21:53:27.531 [info] Extension signature verification is not done: sdras.night-owl
+2024-03-08 21:53:27.553 [info] Extracted extension to file:///home/florin/.vscode-oss/extensions/sdras.night-owl-2.0.1-universal: sdras.night-owl
+2024-03-08 21:53:27.555 [info] Renamed to /home/florin/.vscode-oss/extensions/sdras.night-owl-2.0.1-universal
+2024-03-08 21:53:27.555 [info] Extracting extension completed. sdras.night-owl
+2024-03-08 21:53:27.559 [info] Extension installed successfully: sdras.night-owl
+2024-03-08 21:53:27.633 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/florin/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/florin/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)
+2024-03-08 21:54:00.731 [info] Getting Manifest... bojanstrkovski.bole
+2024-03-08 21:54:00.869 [info] Installing extension: bojanstrkovski.bole
+2024-03-08 21:54:01.427 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+- 
+2024-03-08 21:54:01.427 [info] Extension signature verification is not done: bojanstrkovski.bole
+2024-03-08 21:54:01.431 [info] Extracted extension to file:///home/florin/.vscode-oss/extensions/bojanstrkovski.bole-0.0.1-universal: bojanstrkovski.bole
+2024-03-08 21:54:01.435 [info] Renamed to /home/florin/.vscode-oss/extensions/bojanstrkovski.bole-0.0.1-universal
+2024-03-08 21:54:01.436 [info] Extracting extension completed. bojanstrkovski.bole
+2024-03-08 21:54:01.440 [info] Extension installed successfully: bojanstrkovski.bole
+2024-03-08 21:54:01.515 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/florin/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/florin/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)
+2024-03-08 21:54:05.143 [info] Getting Manifest... mobalic.jetbrains-new-dark
+2024-03-08 21:54:05.281 [info] Installing extension: mobalic.jetbrains-new-dark
+2024-03-08 21:54:05.883 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+- 
+2024-03-08 21:54:05.884 [info] Extension signature verification is not done: mobalic.jetbrains-new-dark
+2024-03-08 21:54:05.889 [info] Extracted extension to file:///home/florin/.vscode-oss/extensions/mobalic.jetbrains-new-dark-0.0.1-universal: mobalic.jetbrains-new-dark
+2024-03-08 21:54:05.891 [info] Renamed to /home/florin/.vscode-oss/extensions/mobalic.jetbrains-new-dark-0.0.1-universal
+2024-03-08 21:54:05.892 [info] Extracting extension completed. mobalic.jetbrains-new-dark
+2024-03-08 21:54:05.896 [info] Extension installed successfully: mobalic.jetbrains-new-dark
+2024-03-08 21:54:05.970 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/florin/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/florin/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)

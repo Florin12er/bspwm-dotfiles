@@ -1,0 +1,22 @@
+2024-03-08 20:49:59.815 [info] Started local extension host with pid 10749.
+2024-03-08 20:50:02.445 [info] [perf] Render performance baseline is 30ms
+2024-03-08 20:53:20.464 [error] Cancelled: Canceled
+    at ie.B (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:781:28456)
+    at async ie.z (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:781:25333)
+    at async ie.z (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:781:26277)
+    at async ne (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:781:24336)
+    at async ie.query (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:781:24557)
+    at async Y.queryGallery (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2941:12106)
+    at async pe.Cc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2877:22903)
+    at async pe.mc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2877:14515)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2877:12817
+2024-03-08 20:55:25.792 [error] Cancelled: Canceled
+    at ie.B (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:781:28456)
+    at async ie.z (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:781:25333)
+    at async ie.z (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:781:26277)
+    at async ne (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:781:24336)
+    at async ie.query (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:781:24557)
+    at async Y.queryGallery (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2941:12106)
+    at async pe.Cc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2877:22903)
+    at async pe.mc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2877:14515)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2877:12817

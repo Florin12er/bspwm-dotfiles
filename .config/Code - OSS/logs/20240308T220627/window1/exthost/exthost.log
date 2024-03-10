@@ -1,0 +1,15 @@
+2024-03-08 22:06:28.877 [info] Extension host with pid 51379 started
+2024-03-08 22:06:28.877 [info] Skipping acquiring lock for /home/florin/.config/Code - OSS/User/workspaceStorage/45f6b5270c1300c57725f891e352b8cf.
+2024-03-08 22:06:28.901 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-08 22:06:28.902 [info] ExtensionService#_doActivateExtension LaurentTreguier.vscode-simple-icons, startup: true, activationEvent: '*'
+2024-03-08 22:06:28.909 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-08 22:06:28.923 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-08 22:06:28.947 [info] Eager extensions activated
+2024-03-08 22:06:28.963 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-08 22:06:28.964 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-08 22:06:28.968 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2024-03-08 22:06:28.970 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-03-08 22:06:29.027 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-03-08 22:06:29.031 [info] ExtensionService#_doActivateExtension sainnhe.gruvbox-material, startup: false, activationEvent: 'onStartupFinished'
+2024-03-08 22:06:37.547 [info] Extension host terminating: renderer closed the MessagePort
+2024-03-08 22:06:37.551 [info] Extension host with pid 51379 exiting with code 0

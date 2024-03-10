@@ -1,0 +1,31 @@
+2024-03-09 08:28:55.723 [info] Log level: Info
+2024-03-09 08:28:55.723 [info] Validating found git in: "git"
+2024-03-09 08:28:55.723 [info] Using git "2.44.0" from "git"
+2024-03-09 08:28:55.723 [info] > git rev-parse --show-toplevel [3ms]
+2024-03-09 08:28:55.723 [info] > git rev-parse --path-format=relative --show-toplevel [6ms]
+2024-03-09 08:28:55.723 [info] > git rev-parse --git-dir --git-common-dir [8ms]
+2024-03-09 08:28:55.723 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-09 08:28:55.730 [info] > git rev-parse --show-toplevel [3ms]
+2024-03-09 08:28:55.734 [info] > git rev-parse --path-format=relative --show-toplevel [1ms]
+2024-03-09 08:28:55.739 [info] > git rev-parse --git-dir --git-common-dir [0ms]
+2024-03-09 08:28:55.739 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-09 08:28:55.743 [info] > git rev-parse --show-toplevel [1ms]
+2024-03-09 08:28:55.747 [info] > git rev-parse --path-format=relative --show-toplevel [0ms]
+2024-03-09 08:28:55.751 [info] > git rev-parse --git-dir --git-common-dir [0ms]
+2024-03-09 08:28:55.751 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-09 08:28:55.755 [info] > git rev-parse --show-toplevel [1ms]
+2024-03-09 08:28:55.758 [info] > git rev-parse --path-format=relative --show-toplevel [0ms]
+2024-03-09 08:28:55.762 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-03-09 08:28:55.762 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-09 08:28:55.766 [info] > git rev-parse --show-toplevel [1ms]
+2024-03-09 08:28:55.770 [info] > git rev-parse --path-format=relative --show-toplevel [1ms]
+2024-03-09 08:28:55.774 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-03-09 08:28:55.774 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-09 08:28:55.778 [info] > git rev-parse --show-toplevel [1ms]
+2024-03-09 08:28:55.782 [info] > git rev-parse --path-format=relative --show-toplevel [1ms]
+2024-03-09 08:28:55.786 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-03-09 08:28:55.786 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-09 08:28:55.800 [info] > git rev-parse --show-toplevel [0ms]
+2024-03-09 08:28:55.804 [info] > git rev-parse --path-format=relative --show-toplevel [1ms]
+2024-03-09 08:28:55.809 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-03-09 08:28:55.809 [info] fatal: not a git repository (or any of the parent directories): .git
