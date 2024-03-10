@@ -10,6 +10,7 @@ export TERM='alacritty'
 export TERMINAL='alacritty'
 export BROWSER='firefox'
 export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"
+export HUGGING_FACE_HUB_TOKEN="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"
 
 if [ -d "$HOME/.local/bin" ] ;
   then PATH="$HOME/.local/bin:$PATH"
