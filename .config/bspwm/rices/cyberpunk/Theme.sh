@@ -5,11 +5,7 @@
 # | |__| |_| | |_) |  __/ |  | |_) | |_| | | | |   <
 #  \____\__, |_.__/ \___|_|  | .__/ \__,_|_| |_|_|\_\
 #       |___/                |_|
-# #  Url     :  https://github.com/gh0stzk/dotfiles
-#  About   :  This file will configure and launch the rice.
-#
 
-# Set bspwm configuration for Jan
 set_bspwm_config() {
 	bspc config border_width 0
 	bspc config top_padding 50

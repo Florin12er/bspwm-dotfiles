@@ -5,12 +5,7 @@
 #   ███╔╝  ████╔╝██║██║╚██╔╝██║██╔══██╗██║ ╚═══██╗    ██╔══██╗██║██║     ██╔══╝
 #  ███████╗╚██████╔╝██║ ╚═╝ ██║██████╔╝██║██████╔╝    ██║  ██║██║╚██████╗███████╗
 #  ╚══════╝ ╚═════╝ ╚═╝     ╚═╝╚═════╝ ╚═╝╚═════╝     ╚═╝  ╚═╝╚═╝ ╚═════╝╚══════╝
-#  Author  :  z0mbi3
-#  Url     :  https://github.com/gh0stzk/dotfiles
-#  About   :  This file will configure and launch the rice.
-#
 
-# Set bspwm configuration for z0mbi3
 set_bspwm_config() {
 	bspc config border_width 0
 	bspc config top_padding 3
