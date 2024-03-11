@@ -278,7 +278,7 @@
                        "󰆍"))
                (eventbox :cursor "pointer"
                (button :class "launcher-btn"
-                       :onclick "OpenApps --editor"
+                       :onclick "code"
                        :tooltip "Editor"
                        "󰷈")))))
                        

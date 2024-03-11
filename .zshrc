@@ -158,6 +158,7 @@ export PATH=/usr/bin:$PATH
 export PATH="$PATH:/opt/flutter/bin"
 export PATH="$PATH:/usr/bin"
 export PATH=$PATH:/usr/local/bin
+export PATH=$PATH:~/.config/emacs/bin
 
 alias ls='lsd -a --group-directories-first'
 alias ll='lsd -la --group-directories-first'

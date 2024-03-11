@@ -173,8 +173,6 @@ vim.keymap.set("n", "<leader>gp", ":Gitsigns preview_hunk<CR>", { noremap = true
 vim.cmd("Gitsigns toggle_signs")
 vim.cmd("Gitsigns toggle_current_line_blame")
 
---neo tree
---vim.keymap.set("n", "<leader>md", ":Neotree toggle<CR>", { noremap = true, silent = true })
-
+-- vim.keymap.set("n", "<leader>md", ":Explore<CR>", { noremap = true, silent = true })
 --zen mode
 vim.keymap.set("n", "<leader>z", ":ZenMode<CR>", { noremap = true, silent = true })

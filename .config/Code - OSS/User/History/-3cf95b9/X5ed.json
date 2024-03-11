@@ -1,0 +1,8 @@
+{
+  "workbench.iconTheme": "sweet-vscode-icons",
+  "workbench.colorTheme": "Cyberpunk",
+  "workbench.productIconTheme": "material-product-icons",
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  }
+}

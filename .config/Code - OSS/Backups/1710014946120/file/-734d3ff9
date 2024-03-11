@@ -1,0 +1,3 @@
+file:///home/florin/.config/nvim/init.lua {"mtime":1710066883029,"ctime":1710066883029,"size":21,"etag":"3c3qg23rll","orphaned":false,"typeId":""}
+require("FlorinVim")
+ 

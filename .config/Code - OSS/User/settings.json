@@ -1,5 +1,8 @@
 {
   "workbench.iconTheme": "file-icons",
-  "workbench.colorTheme": "Rosé Pine Moon",
-  "workbench.productIconTheme": "material-product-icons"
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.productIconTheme": "material-product-icons",
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  }
 }
