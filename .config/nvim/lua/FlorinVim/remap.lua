@@ -50,7 +50,7 @@ vim.keymap.set("n", "<leader>fb", builtin.buffers, {})
 vim.keymap.set("n", "<leader>fs", function()
 	builtin.grep_string({ search = vim.fn.input("Find > ") })
 end)
-vim.keymap.set("n", "<leader>o", ":SymbolsOutline<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>so", ":SymbolsOutline<CR>", { noremap = true, silent = true })
 
 --if
 
@@ -90,15 +90,6 @@ vim.keymap.set("n", "<M-5>", function()
 	ui.nav_file(5)
 end)
 
---conform
-local conform = require("conform")
-vim.keymap.set({ "n", "v" }, "<leader>z", function()
-	conform.format({
-		async = false,
-		timeout_ms = 500,
-	})
-end)
-
 --px to rem
 
 vim.keymap.set({ "n", "v" }, "<leader>px", ":PxToRemLine<CR>", { noremap = true, silent = true })
@@ -121,6 +112,10 @@ vim.api.nvim_set_keymap("n", "<C-y>", "<C-w>+", { noremap = true, silent = true 
 vim.api.nvim_set_keymap("n", "<C-w>", "<C-w>-", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<C-c>", "<C-w>>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<C-x>", "<C-w><", { noremap = true, silent = true })
+
+--format
+
+vim.keymap.set({"n","v"}, "<leader>f", vim.lsp.buf.format, {})
 
 --codeium
 
@@ -157,7 +152,7 @@ vim.api.nvim_create_autocmd("LspAttach", {
 		vim.keymap.set("n", "<space>rn", vim.lsp.buf.rename, opts)
 		vim.keymap.set({ "n", "v" }, "<space>ca", vim.lsp.buf.code_action, opts)
 		vim.keymap.set("n", "gr", vim.lsp.buf.references, opts)
-		vim.keymap.set("n", "<space>f", function()
+		vim.keymap.set("n", "<space>pf", function()
 			vim.lsp.buf.format({ async = true })
 		end, opts)
 	end,
@@ -176,3 +171,9 @@ vim.cmd("Gitsigns toggle_current_line_blame")
 -- vim.keymap.set("n", "<leader>md", ":Explore<CR>", { noremap = true, silent = true })
 --zen mode
 vim.keymap.set("n", "<leader>z", ":ZenMode<CR>", { noremap = true, silent = true })
+
+--obsidian
+vim.keymap.set("n", "<leader>or", ":ObsidianRename<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>on", ":ObsidianNew<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>os", ":ObsidianSearch<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>ol", ":ObsidianLink<CR>", { noremap = true, silent = true })

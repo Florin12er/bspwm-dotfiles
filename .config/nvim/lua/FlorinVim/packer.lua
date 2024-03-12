@@ -12,13 +12,10 @@ end
 vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
 	{
-		{
-			"stevearc/conform.nvim",
-			event = { "BufReadPre", "BufNewFile" },
-		},
 		"hrsh7th/cmp-path",
 		{ "ellisonleao/gruvbox.nvim", priority = 1000, config = true, opts = ... },
 		{ "rose-pine/neovim", name = "rose-pine" },
+        "nvimtools/none-ls.nvim",
 		"simrat39/symbols-outline.nvim",
 		{
 			"folke/noice.nvim",
@@ -122,16 +119,15 @@ require("lazy").setup({
 			opts = {
 				workspaces = {
 					{
-						name = "personal",
-						path = "~/Obsidian/main vault/",
-					},
-					{
-						name = "work",
-						path = "~/Obsidian/main vault/",
+						name = "global",
+						path = "~",
 					},
 				},
 			},
 			notes_subdir = "notes",
+			ui = {
+				enable = true,
+			},
 			completion = {
 				nvim_cmp = true,
 				min_chars = 2,

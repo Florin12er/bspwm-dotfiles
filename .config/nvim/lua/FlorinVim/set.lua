@@ -21,7 +21,7 @@ vim.opt.isfname:append("@-@")
 vim.opt.updatetime = 50
 
 vim.wo.number = true
-vim.opt_local.conceallevel = 2
+vim.opt_local.conceallevel = 1
 vim.wo.relativenumber = true
 vim.cmd("set number")
 vim.cmd("set relativenumber")

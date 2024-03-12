@@ -33,6 +33,7 @@ lspconfig.lua_ls.setup({
 })
 lspconfig.pylsp.setup({
 	capabilities = capabilities,
+	filetypes = { "python", "py", "pydantic" },
 	settings = {
 		pylsp = {
 			plugins = {
@@ -92,12 +93,15 @@ lspconfig.gopls.setup({
 })
 lspconfig.html.setup({
 	capabilities = capabilities,
+	filetypes = { "html", "htmldjango", "markdown" },
 })
 lspconfig.emmet_ls.setup({
 	capabilities = capabilities,
+	filetypes = { "html", "htmldjango", "markdown" },
 })
 lspconfig.emmet_language_server.setup({
 	capabilities = capabilities,
+	filetypes = { "html", "htmldjango", "markdown" },
 })
 lspconfig.rust_analyzer.setup({
 	capabilities = {

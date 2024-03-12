@@ -6,7 +6,11 @@
             "file:///home/florin/.config/bspwm": "__default__profile__"
         },
         "emptyWindows": {
-            "1710014946120": "__default__profile__"
+            "1710014946120": "__default__profile__",
+            "1710231854845": "__default__profile__",
+            "1710231855317": "__default__profile__",
+            "1710231855678": "__default__profile__",
+            "1710231855973": "__default__profile__"
         }
     },
     "profileAssociationsMigration": true,
@@ -18,6 +22,18 @@
         "emptyWindows": [
             {
                 "backupFolder": "1710014946120"
+            },
+            {
+                "backupFolder": "1710231854845"
+            },
+            {
+                "backupFolder": "1710231855317"
+            },
+            {
+                "backupFolder": "1710231855678"
+            },
+            {
+                "backupFolder": "1710231855973"
             }
         ]
     },
@@ -1759,19 +1775,19 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#261d45",
+    "themeBackground": "#161925",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#ffffff",
-            "background": "#261d45",
-            "editorBackground": "#261d45",
-            "titleBarBackground": "#100d23",
-            "activityBarBackground": "#261d45",
-            "sideBarBackground": "#372963",
-            "statusBarBackground": "rgba(0, 34, 18, 0.93)",
-            "statusBarNoFolderBackground": "#68217a"
+            "foreground": "#f8f8f2",
+            "background": "#161925",
+            "editorBackground": "#161925",
+            "titleBarBackground": "#161925",
+            "activityBarBackground": "#232634",
+            "sideBarBackground": "#161925",
+            "statusBarBackground": "#11131c",
+            "statusBarNoFolderBackground": "#11131c"
         },
         "layoutInfo": {
             "sideBarSide": "left",
@@ -1788,10 +1804,10 @@
             "backupPath": "/home/florin/.config/Code - OSS/Backups/1710014946120",
             "uiState": {
                 "mode": 1,
-                "x": 1928,
-                "y": 56,
-                "width": 2544,
-                "height": 1376
+                "x": 2005,
+                "y": 9,
+                "width": 2467,
+                "height": 1423
             }
         },
         "openedWindows": []

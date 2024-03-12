@@ -1,0 +1,19 @@
+2024-03-12 09:24:16.062 [info] Extension host with pid 7908 started
+2024-03-12 09:24:16.341 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-12 09:24:16.345 [info] ExtensionService#_doActivateExtension LaurentTreguier.vscode-simple-icons, startup: true, activationEvent: '*'
+2024-03-12 09:24:16.354 [info] Extension host with pid 7971 started
+2024-03-12 09:24:16.359 [info] Eager extensions activated
+2024-03-12 09:24:16.373 [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: false, activationEvent: 'onStartupFinished'
+2024-03-12 09:24:16.378 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-12 09:24:16.410 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-12 09:24:16.462 [info] Eager extensions activated
+2024-03-12 09:24:16.488 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-12 09:24:16.490 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-12 09:24:16.495 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2024-03-12 09:24:16.498 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-03-12 09:24:16.609 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-03-12 09:24:16.617 [info] ExtensionService#_doActivateExtension sainnhe.gruvbox-material, startup: false, activationEvent: 'onStartupFinished'
+2024-03-12 09:24:20.313 [info] Extension host terminating: renderer closed the MessagePort
+2024-03-12 09:24:20.331 [info] Extension host with pid 7971 exiting with code 0
+2024-03-12 09:24:20.641 [info] Extension host terminating: renderer closed the MessagePort
+2024-03-12 09:24:20.644 [info] Extension host with pid 7908 exiting with code 0

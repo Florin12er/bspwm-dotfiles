@@ -4,7 +4,6 @@
 #  ╚════██║ ██╔██╗ ██╔══██║██╔═██╗ ██║  ██║██╔══██╗██║     
 #  ███████║██╔╝ ██╗██║  ██║██║  ██╗██████╔╝██║  ██║╚██████╗
 #  ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝ ╚═════╝
-#	z0mbi3			https://github.com/gh0stzk/dotfiles
 #
 
 #|||----- Applications -----|||#
@@ -29,6 +28,18 @@ shift + alt + b
 
 shift + alt + c
   exec code
+
+shift + alt + w
+ exec warp-terminal
+
+shift + alt + g
+ exec gimp  
+
+shift + alt + m
+ exec geary 
+
+shift + alt + o
+ exec obs
 
 shift + alt + f
  exec nemo

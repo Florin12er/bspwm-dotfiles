@@ -156,6 +156,7 @@ setopt no_auto_menu # require an extra TAB press to open the completion menu
 export PATH="$PATH:/home/florin/.cargo/bin"
 export PATH=/usr/bin:$PATH
 export PATH="$PATH:/opt/flutter/bin"
+export PATH="$HOME/bin:$PATH"
 export PATH="$PATH:/usr/bin"
 export PATH=$PATH:/usr/local/bin
 export PATH=$PATH:~/.config/emacs/bin

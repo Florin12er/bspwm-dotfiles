@@ -1,0 +1,22 @@
+2024-03-12 09:24:15.780 [info] Extension host with pid 7837 started
+2024-03-12 09:24:15.855 [info] Extension host with pid 7852 started
+2024-03-12 09:24:15.918 [info] Eager extensions activated
+2024-03-12 09:24:15.979 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-12 09:24:16.047 [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: false, activationEvent: 'onStartupFinished'
+2024-03-12 09:24:16.285 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-12 09:24:16.287 [info] ExtensionService#_doActivateExtension LaurentTreguier.vscode-simple-icons, startup: true, activationEvent: '*'
+2024-03-12 09:24:16.395 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-12 09:24:16.432 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-12 09:24:16.484 [info] Eager extensions activated
+2024-03-12 09:24:16.528 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-12 09:24:16.530 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-12 09:24:16.536 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2024-03-12 09:24:16.539 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-03-12 09:24:16.645 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-03-12 09:24:16.652 [info] ExtensionService#_doActivateExtension sainnhe.gruvbox-material, startup: false, activationEvent: 'onStartupFinished'
+2024-03-12 09:24:20.677 [info] Extension host terminating: renderer closed the MessagePort
+2024-03-12 09:24:20.697 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-03-12 09:24:20.697 [warning] Canceled
+2024-03-12 09:24:20.697 [info] Extension host with pid 7852 exiting with code 0
+2024-03-12 09:24:21.006 [info] Extension host terminating: renderer closed the MessagePort
+2024-03-12 09:24:21.010 [info] Extension host with pid 7837 exiting with code 0
