@@ -21,7 +21,7 @@ function hide() {
         z0mbi3)
             eww -c "$HOME"/.config/bspwm/rices/z0mbi3/bar open --toggle bar | bspc config left_padding 2
             ;;
-        andrea)
+        rose-pine)
             eww -c "$HOME"/.config/bspwm/rices/andrea/andy open --toggle bar | bspc config top_padding 2
             ;;
         karla)

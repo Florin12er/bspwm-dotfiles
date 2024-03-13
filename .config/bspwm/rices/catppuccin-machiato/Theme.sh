@@ -25,6 +25,7 @@ set_bspwm_config() {
 source /home/florin/scripts/changetheme.sh Catppuccin-Macchiato-Standard-Blue-Dark Tela-circle-blue
 source /home/florin/scripts/vim-theme.sh catppuccin-macchiato
 source /home/florin/scripts/reset.sh nemo
+/home/florin/scripts/rofi_theme.sh "rofi -theme /home/florin/.config/rofi/launchers/type-6/style-10.rasi -show drun"
 /home/florin/scripts/vscode.sh "Catppuccin Macchiato" "file-icons"
 starship preset pastel-powerline -o ~/.config/starship.toml
 feh --bg-fill /home/florin/.config/bspwm/rices/catppuccin-machiato/walls/mountains.png

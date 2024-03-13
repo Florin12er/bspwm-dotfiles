@@ -20,6 +20,7 @@ set_bspwm_config() {
 source /home/florin/scripts/changetheme.sh rose-pine-moon-gtk Tela-circle-pink
 source /home/florin/scripts/vim-theme.sh rose-pine-moon
 source /home/florin/scripts/reset.sh nemo
+/home/florin/scripts/rofi_theme.sh "rofi -theme /home/florin/.config/rofi/launchers/type-6/style-10.rasi -show drun"
 /home/florin/scripts/vscode.sh "Rosé Pine Moon" "file-icons"
 starship preset pastel-powerline -o ~/.config/starship.toml
 feh --bg-fill /home/florin/.config/bspwm/rices/rose-pine/walls/daniel-ignacio-the-deer-spirit.jpg

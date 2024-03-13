@@ -18,6 +18,7 @@ set_bspwm_config() {
 source /home/florin/scripts/changetheme.sh Gruvbox-Material-Dark Tela-circle-green
 source /home/florin/scripts/vim-theme.sh gruvbox
 /home/florin/scripts/vscode.sh "Gruvbox Dark Medium" "file-icons"
+/home/florin/scripts/rofi_theme.sh "rofi -theme /home/florin/.config/rofi/launchers/type-6/style-5.rasi -show drun"
 source /home/florin/scripts/reset.sh nemo
 starship preset gruvbox-rainbow -o ~/.config/starship.toml
 feh --bg-fill /home/florin/.config/bspwm/rices/gruvbox/walls/gruvbox_room.png

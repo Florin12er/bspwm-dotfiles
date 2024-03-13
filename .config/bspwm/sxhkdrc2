@@ -1,0 +1,6 @@
+super + shift + w
+  rofi -show wifi -modi 'wifi:iwdrofimenu' -theme /home/florin/.config/rofi/launchers/type-3/style-9.rasi
+
+super + BackSpace
+  exec /home/florin/.config/rofi/powermenu/type-4/powermenu.sh
+  

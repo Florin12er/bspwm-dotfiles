@@ -21,6 +21,7 @@ set_bspwm_config() {
 source /home/florin/scripts/changetheme.sh Catppuccin-Mocha-Standard-Blue-Dark Tela-circle-blue
 source /home/florin/scripts/vim-theme.sh catppuccin-mocha
 source /home/florin/scripts/reset.sh nemo
+/home/florin/scripts/rofi_theme.sh "rofi -theme /home/florin/.config/rofi/launchers/type-3/style-2.rasi -show drun"
 /home/florin/scripts/vscode.sh "Sweet Dracula" "file-icons"
 starship preset nerd-font-symbols -o ~/.config/starship.toml
 feh --bg-fill /home/florin/.config/bspwm/rices/z0mbi3/walls/wp8973958-4k-zombie-aesthetic-wallpapers.jpg

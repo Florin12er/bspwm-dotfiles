@@ -20,6 +20,7 @@ source /home/florin/scripts/changetheme.sh rose-pine-dawn-gtk Tela-circle-light
 source /home/florin/scripts/vim-theme.sh rose-pine-dawn
 source /home/florin/scripts/reset.sh nemo
 /home/florin/scripts/vscode.sh "Rosé Pine Dawn" "file-icons"
+/home/florin/scripts/rofi_theme.sh "rofi -theme /home/florin/.config/rofi/launchers/type-5/style-3.rasi -show drun"
 starship preset tokyo-night -o ~/.config/starship.toml
 feh --bg-fill /home/florin/.config/bspwm/rices/white/walls/chrisostrowski-the-esteemed-palace-light.jpg
 

@@ -18,7 +18,7 @@ super + alt + Return
 
 # Application menu
 super + a
-	OpenApps --menu
+   exec rofi -theme /home/florin/.config/rofi/launchers/type-3/style-2.rasi -show drun
 
 #####
 
@@ -72,7 +72,8 @@ ctrl + super + alt + {p,r,q,l,k}
 
 # Hide/Show Bar (Polybar and/or eww)
 super + {ESC,u}
-	HideBar {-h,-u}
+    polybar-msg cmd toggle
+
 
 # Change transparency on focused window
 ctrl + alt + {plus,minus,t}

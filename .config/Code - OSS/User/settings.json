@@ -1,6 +1,6 @@
 {
   "workbench.iconTheme": "file-icons",
-  "workbench.colorTheme": "Gruvbox Dark Medium",
+  "workbench.colorTheme": "Catppuccin Mocha",
   "workbench.productIconTheme": "material-product-icons",
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1
