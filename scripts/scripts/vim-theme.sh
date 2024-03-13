@@ -1,0 +1,1 @@
+../.dotfiles/scripts/vim-theme.sh

@@ -1,0 +1,1 @@
+../.dotfiles/scripts/rainbowjoke.sh
