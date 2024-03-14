@@ -1,33 +1,33 @@
-# (Onedark) Color scheme for Isabel Rice
+# (Decay, decayce variant) Color scheme for z0mbi3 Rice
 
 # Default colors
 [colors.primary]
-background = "#14171c"
-foreground = "#abb2bf"
+background = "#0d0f18"
+foreground = "#a5b6cf"
 
 # Cursor colors
 [colors.cursor]
-cursor = "#abb2bf"
-text = "#14171c"
+cursor = "#a5b6cf"
+text = "#0d0f18"
 
 # Normal colors
 [colors.normal]
-black = "#1e2127"
-blue = "#4889be"
-cyan = "#49919a"
-green = "#81ae5f"
-magenta = "#7560d3"
-red = "#be5046"
-white = "#abb2bf"
-yellow = "#d19a66"
+black = "#3d414f"
+blue = "#86aaec"
+cyan = "#93cee9"
+green = "#90ceaa"
+magenta = "#c296eb"
+red = "#dd6777"
+white = "#cbced3"
+yellow = "#ecd3a0"
 
 # Bright colors
 [colors.bright]
-black = "#5c6370"
-blue = "#61afef"
-cyan = "#56b6c2"
-green = "#98c379"
-magenta = "#8677cf"
-red = "#e06c75"
-white = "#ffffff"
-yellow = "#e5c07b"
+black = "#3d414f"
+blue = "#86aaec"
+cyan = "#93cee9"
+green = "#90ceaa"
+magenta = "#c296eb"
+red = "#dd6777"
+white = "#cbced3"
+yellow = "#ecd3a0"

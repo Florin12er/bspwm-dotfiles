@@ -9,7 +9,6 @@ null_ls.setup({
         null_ls.builtins.formatting.golines,
         null_ls.builtins.formatting.shfmt,
         null_ls.builtins.formatting.prettier,
-        null_ls.builtins.diagnostics.eslint_d,
         null_ls.builtins.diagnostics.rubocop,
         null_ls.builtins.formatting.rubocop,
 	},

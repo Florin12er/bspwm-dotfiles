@@ -1,0 +1,4 @@
+2024-03-13 22:34:44.647 [info] Started local extension host with pid 60906.
+2024-03-13 22:34:44.977 [info] Ignoring configured affinity for 'asvetliakov.vscode-neovim' because extension host(s) are already running. Reload window.
+2024-03-13 22:34:44.987 [info] Placing extension(s) asvetliakov.vscode-neovim on a separate extension host.
+2024-03-13 22:34:45.186 [info] Started local extension host with pid 60955.

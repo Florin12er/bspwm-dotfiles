@@ -15,7 +15,7 @@ require("lazy").setup({
 		"hrsh7th/cmp-path",
 		{ "ellisonleao/gruvbox.nvim", priority = 1000, config = true, opts = ... },
 		{ "rose-pine/neovim", name = "rose-pine" },
-        "nvimtools/none-ls.nvim",
+		"nvimtools/none-ls.nvim",
 		"simrat39/symbols-outline.nvim",
 		{
 			"folke/noice.nvim",
@@ -96,6 +96,22 @@ require("lazy").setup({
 			},
 		},
 		"hrsh7th/cmp-nvim-lsp-signature-help",
+		{
+			"gsuuon/model.nvim",
+			config = function()
+				require("model").setup({
+					["hf:starcoder"] = {
+						provider = "huggingface",
+						options = {
+							model = "bigcode/starcoder",
+						},
+						builder = function(input)
+							return { inputs = input }
+						end,
+					},
+				})
+			end,
+		},
 		"shaunsingh/nord.nvim",
 		"ptzz/lf.vim",
 		{

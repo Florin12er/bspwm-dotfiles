@@ -1,3 +1,0 @@
-2024-03-09 21:09:06.164 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/florin/.config/nvim/init.lua","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
-2024-03-09 21:09:06.535 [info] Started local extension host with pid 53334.
-2024-03-09 21:09:09.136 [info] [perf] Render performance baseline is 23ms

@@ -4,3 +4,23 @@ super + shift + w
 super + BackSpace
   exec /home/florin/.config/rofi/powermenu/type-4/powermenu.sh
   
+super + shift + c 
+  exec rofi -show calc -modi calc -no-show-match -no-sort
+
+super + shift + e
+  exec rofi -show emoji -modi emoji -no-show-match -no-sort
+
+super + shift + p
+ exec gpick -p | sed 's/^#/&/' | xclip -selection clipboard
+
+super + shift + s 
+   /home/florin/.config/rofi/applets/bin/screenshot.sh
+
+super + alt + c 
+ rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
+
+super + shift + a
+  eww -c "$HOME"/.config/bspwm/rices/white/andy open --toggle bar
+
+super + shift + x 
+  eww -c "$HOME"/.config/bspwm/rices/z0mbi3/bar open --toggle bar

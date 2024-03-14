@@ -11,21 +11,16 @@ export TERMINAL='alacritty'
 export BROWSER='firefox'
 export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"
 export HUGGING_FACE_HUB_TOKEN="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"
+export HUGGINGFACE_API_KEY="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"
 
 if [ -d "$HOME/.local/bin" ] ;
-  then PATH="$HOME/.local/bin:$PATH"
+ then PATH="$HOME/.local/bin:$PATH"
 fi
 
 #  ┬  ┌─┐┌─┐┌┬┐  ┌─┐┌┐┌┌─┐┬┌┐┌┌─┐
 #  │  │ │├─┤ ││  ├┤ ││││ ┬││││├┤ 
 #  ┴─┘└─┘┴ ┴─┴┘  └─┘┘└┘└─┘┴┘└┘└─┘
-autoload -Uz compinit
-
-for dump in ~/.config/zsh/zcompdump(N.mh+24); do
-  compinit -d ~/.config/zsh/zcompdump
-done
-
-compinit -C -d ~/.config/zsh/zcompdump
+[[ -s /home/florin/.autojump/etc/profile.d/autojump.sh ]] && source /home/florin/.autojump/etc/profile.d/autojump.sh
 
 autoload -Uz add-zsh-hook
 autoload -Uz vcs_info
@@ -94,6 +89,15 @@ source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring
 source /usr/share/zsh/plugins/fzf-zsh-plugin/fzf-zsh-plugin.plugin.zsh
 source /usr/share/zsh/plugins/zsh-you-should-use/you-should-use.plugin.zsh
 source /usr/share/zsh/plugins/zsh-vi-mode/zsh-vi-mode.zsh
+autoload -Uz compinit
+autoload -U compinit && compinit -u
+for dump in ~/.config/zsh/zcompdump(N.mh+24); do
+  compinit -d ~/.config/zsh/zcompdump
+done
+
+compinit -C -d ~/.config/zsh/zcompdump
+
+
 
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
@@ -334,6 +338,5 @@ ex=:\
 *.pdf=:\
 *.nix=:\
 "
-
-export PATH=$PATH:/home/florin/.spicetify
 export PATH=$PATH:/var/lib/snapd/snap/bin
+export PATH=$PATH:/usr/bin/tmux

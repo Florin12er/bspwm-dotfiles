@@ -94,6 +94,7 @@ pidof -q picom || { picom --config "$HOME"/.config/bspwm/picom.conf & }
 
 # Launch dunst notification daemon
 dunst -config "$HOME"/.config/bspwm/dunstrc &
+greenclip daemon &
 
 # Launch eww daemon
 pidof -q eww || { eww -c "$HOME"/.config/bspwm/eww daemon & }

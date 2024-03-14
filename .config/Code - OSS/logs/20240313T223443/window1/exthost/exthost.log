@@ -1,0 +1,6 @@
+2024-03-13 22:34:45.012 [info] Extension host with pid 60906 started
+2024-03-13 22:34:45.183 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-13 22:34:45.237 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-13 22:34:45.240 [info] ExtensionService#_doActivateExtension LaurentTreguier.vscode-simple-icons, startup: true, activationEvent: '*'
+2024-03-13 22:34:45.242 [info] Extension host terminating: renderer closed the MessagePort
+2024-03-13 22:34:45.242 [info] Extension host with pid 60906 exiting with code 0

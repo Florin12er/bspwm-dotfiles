@@ -23,7 +23,7 @@ set_bspwm_config() {
 	bspc config focused_border_color "#8CAAEE"
 	bspc config presel_feedback_color "#E78284"
 }
-source /home/florin/scripts/changetheme.sh Catppuccin-Latte-Standard-Blue-Light Tela-circle-blue
+source /home/florin/scripts/changetheme.sh rose-pine-dawn-gtk Tela-circle-blue
 source /home/florin/scripts/vim-theme.sh catppuccin-latte
 /home/florin/scripts/vscode.sh "Catppuccin Latte" "file-icons"
 /home/florin/scripts/rofi_theme.sh "rofi -theme /home/florin/.config/rofi/launchers/type-6/style-8.rasi -show drun"
