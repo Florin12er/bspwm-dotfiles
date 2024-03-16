@@ -20,10 +20,10 @@ configuration {
 
 * {
 font: "JetBrainsMono NF Bold 9";
-background: #0b0d16;
-background-alt: #0b0d16C7;
-foreground: #a5b6cf;
-selected: #087152;
+background: #2d353b;
+background-alt: #2d353bE0;
+foreground: #d3c6aa;
+selected: #475258;
 }
 
 //----- Main Window -----//
@@ -70,7 +70,7 @@ inputbar {
     spacing:                     10px;
     padding:                     50px 100px;
     background-color:            transparent;
-    background-image:            url("~/.config/bspwm/assets/gh-rofi.webp", width);
+    background-image:            url("~/.config/bspwm/assets/cy-rofi.webp", width);
     text-color:                  @foreground;
     orientation:                 horizontal;
     children:                    [ "textbox-prompt-colon", "entry" ];

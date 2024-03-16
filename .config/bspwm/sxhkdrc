@@ -24,7 +24,7 @@ super + a
 
 # Apps (browser, editor, filemanager)
 shift + alt + b
-	OpenApps {--browser}
+   exec flatpak run io.gitlab.librewolf-community
 
 shift + alt + c
   exec code
@@ -39,7 +39,7 @@ shift + alt + m
  exec geary 
 
 shift + alt + o
- exec obs
+ exec flatpak run com.obsproject.Studio
 
 shift + alt + f
  exec nemo

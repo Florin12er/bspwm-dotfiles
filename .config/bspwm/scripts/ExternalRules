@@ -30,7 +30,7 @@ case "$class" in
 FloaTerm)
 	result "state=floating center=on"
 	;;
-Updating)
+Updkting)
 	result "state=floating sticky=on center=on"
 	;;
 mpv)
@@ -50,9 +50,6 @@ Pavucontrol)
 	;;
 Virt-manager)
 	result "state=floating desktop=^5 follow=on center=on"
-	;;
-firefox | Navigator)
-	result "desktop=^3 follow=on"
 	;;
 Transmission-gtk)
 	result "desktop=^6 follow=on"

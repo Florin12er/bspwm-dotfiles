@@ -1,33 +1,33 @@
-# (Decay, decayce variant) Color scheme for z0mbi3 Rice
+# (Everforest) color scheme for Brenda Rice
 
 # Default colors
 [colors.primary]
-background = "#0d0f18"
-foreground = "#a5b6cf"
+background = "#2d353b"
+foreground = "#d3c6aa"
 
 # Cursor colors
 [colors.cursor]
-cursor = "#a5b6cf"
-text = "#0d0f18"
+cursor = "#d3c6aa"
+text = "#2d353b"
 
 # Normal colors
 [colors.normal]
-black = "#3d414f"
-blue = "#86aaec"
-cyan = "#93cee9"
-green = "#90ceaa"
-magenta = "#c296eb"
-red = "#dd6777"
-white = "#cbced3"
-yellow = "#ecd3a0"
+black   = "#475258"
+red     = "#e67e80"
+green   = "#a7c080"
+yellow  = "#dbbc7f"
+blue    = "#7fbbb3"
+magenta = "#d699b6"
+cyan    = "#83c092"
+white   = "#d3c6aa"
 
 # Bright colors
 [colors.bright]
-black = "#3d414f"
-blue = "#86aaec"
-cyan = "#93cee9"
-green = "#90ceaa"
-magenta = "#c296eb"
-red = "#dd6777"
-white = "#cbced3"
-yellow = "#ecd3a0"
+black   = "#475258"
+red     = "#e67e80"
+green   = "#a7c080"
+yellow  = "#dbbc7f"
+blue    = "#7fbbb3"
+magenta = "#d699b6"
+cyan    = "#83c092"
+white   = "#d3c6aa"

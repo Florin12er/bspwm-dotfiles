@@ -22,9 +22,9 @@ bspc rule -a lf -o state=floating
 #  ╦ ╦╔═╗╦═╗╦╔═╔═╗╔═╗╔═╗╔═╗╔═╗╔═╗
 #  ║║║║ ║╠╦╝╠╩╗╚═╗╠═╝╠═╣║  ║╣ ╚═╗
 #  ╚╩╝╚═╝╩╚═╩ ╩╚═╝╩  ╩ ╩╚═╝╚═╝╚═╝
-feh --bg-fill /home/florin/Pictures/beautiful.jpg
+#feh --bg-fill /home/florin/Pictures/beautiful.jpg
 
-# Default 1 monitor with 6 workspaces
+#Default 1 monitor with 6 workspaces
 INTERNAL_MONITOR="DisplayPort-1"
 EXTERNAL_MONITOR="DisplayPort-2"
 if [[ $(xrandr -q | grep "${EXTERNAL_MONITOR} connected") ]]; then
@@ -34,6 +34,8 @@ if [[ $(xrandr -q | grep "${EXTERNAL_MONITOR} connected") ]]; then
 else
 	bspc monitor "$INTERNAL_MONITOR" -d '' '' '' '' '' '' '' ''
 fi
+# create workspaces
+# create workspaces
 xrandr --output DisplayPort-2 --mode 1920x1080 --rate 240.00 --pos 0x0
 xrandr --output DisplayPort-1 --mode 2560x1440 --rate 240.00 --pos 1920x0
 
@@ -89,8 +91,8 @@ sxhkd -c "$HOME"/.config/bspwm/sxhkdrc2 &
 
 # Launch picom // If you have old hardware or encounter problems
 # uncomment the picom "--legacy-backends" line and comment the current one.
-pidof -q picom || { picom --config "$HOME"/.config/bspwm/picom.conf & }
-#pidof -q picom || { picom --legacy-backends --config "$HOME"/.config/bspwm/picom.conf & }
+#pidof -q picom || { picom --config "$HOME"/.config/bspwm/picom.conf & }
+pidof -q picom || { picom --legacy-backends --config "$HOME"/.config/bspwm/picom.conf & }
 
 # Launch dunst notification daemon
 dunst -config "$HOME"/.config/bspwm/dunstrc &
@@ -103,4 +105,4 @@ pidof -q eww || { eww -c "$HOME"/.config/bspwm/eww daemon & }
 pidof -q polkit-gnome-authentication-agent-1 || { /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 & }
 
 # Fix cursor
-xsetroot -cursor_name left_ptr
+    xsetroot -cursor_name left_ptr

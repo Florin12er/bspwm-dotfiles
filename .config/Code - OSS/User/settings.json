@@ -1,6 +1,6 @@
 {
-  "workbench.iconTheme": "file-icons",
-  "workbench.colorTheme": "Sweet Dracula",
+  "workbench.iconTheme": "rose-pine-icons",
+  "workbench.colorTheme": "Rosé Pine Moon",
   "workbench.productIconTheme": "material-product-icons",
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1

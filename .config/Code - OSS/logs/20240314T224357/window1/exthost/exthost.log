@@ -1,0 +1,13 @@
+2024-03-14 22:43:58.243 [info] Extension host with pid 28023 started
+2024-03-14 22:43:58.315 [info] Extension host with pid 28054 started
+2024-03-14 22:43:58.322 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-14 22:43:58.329 [info] Eager extensions activated
+2024-03-14 22:43:58.348 [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: false, activationEvent: 'onStartupFinished'
+2024-03-14 22:43:58.404 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-14 22:43:58.406 [info] ExtensionService#_doActivateExtension LaurentTreguier.vscode-simple-icons, startup: true, activationEvent: '*'
+2024-03-14 22:43:58.465 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-14 22:43:58.487 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-14 22:43:58.494 [info] Extension host terminating: renderer closed the MessagePort
+2024-03-14 22:43:58.495 [info] Extension host with pid 28054 exiting with code 0
+2024-03-14 22:43:58.503 [info] Extension host terminating: renderer closed the MessagePort
+2024-03-14 22:43:58.505 [info] Extension host with pid 28023 exiting with code 0
