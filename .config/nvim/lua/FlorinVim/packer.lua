@@ -16,7 +16,10 @@ require("lazy").setup({
 		{ "ellisonleao/gruvbox.nvim", priority = 1000, config = true, opts = ... },
 		{ "rose-pine/neovim", name = "rose-pine" },
 		"nvimtools/none-ls.nvim",
+        "nyoom-engineering/oxocarbon.nvim",
 		"simrat39/symbols-outline.nvim",
+        {'edluffy/hologram.nvim'},
+        { "EdenEast/nightfox.nvim" },
 		{
 			"folke/noice.nvim",
 			event = "VeryLazy",
@@ -96,6 +99,7 @@ require("lazy").setup({
 			},
 		},
 		"hrsh7th/cmp-nvim-lsp-signature-help",
+		"Mofiqul/dracula.nvim",
 		{
 			"gsuuon/model.nvim",
 			config = function()

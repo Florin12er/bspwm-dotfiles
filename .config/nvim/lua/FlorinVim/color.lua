@@ -46,6 +46,23 @@ require("catppuccin").setup({
 	},
 })
 require("rose-pine").setup({
-	transparent_background = true,
+	dim_inactive_windows = false,
+	extend_background_behind_borders = true,
+	styles = {
+		bold = true,
+		italic = true,
+		transparency = true,
+	},
 })
-vim.cmd([[colorscheme catppuccin-mocha]])
+require("nightfox").setup({
+    options = {
+        transparent = true,
+    },
+})
+require("tokyonight").setup({
+    transparent = true,
+})
+require("gruvbox").setup({
+    transparent_mode = true,
+})
+vim.cmd([[colorscheme tokyonight-moon]])

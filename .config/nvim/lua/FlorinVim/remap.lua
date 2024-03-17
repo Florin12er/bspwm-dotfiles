@@ -115,7 +115,7 @@ vim.api.nvim_set_keymap("n", "<C-x>", "<C-w><", { noremap = true, silent = true 
 
 --format
 
-vim.keymap.set({"n","v"}, "<leader>f", vim.lsp.buf.format, {})
+vim.keymap.set("n", "<leader>f", vim.lsp.buf.format, {})
 
 --codeium
 
