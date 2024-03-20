@@ -125,6 +125,11 @@ fi
 #  ┴ ┴┴─┘┴┴ ┴└─┘
 alias mirrors="sudo reflector --verbose --latest 5 --country 'United States' --age 6 --sort rate --save /etc/pacman.d/mirrorlist"
 alias lf=lfrun
+alias ai="ollama run mistral"
+alias ai2="ollama run llama2"
+alias iai="ollama run llama2-uncensored"
+alias ll="sudo ls -l";
+alias size="ls -lh --blocks=size"
 alias grub-update="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias mantenimiento="yay -Sc && sudo pacman -Scc"
 alias purga="sudo pacman -Rns $(pacman -Qtdq) ; sudo fstrim -av"
