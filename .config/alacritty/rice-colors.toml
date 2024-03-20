@@ -1,33 +1,33 @@
-# (Everforest) color scheme for Brenda Rice
+# (Aing) Aing Rice
 
 # Default colors
 [colors.primary]
-background = "#2d353b"
-foreground = "#d3c6aa"
+background = "#161a22"
+foreground = "#cadee7"
 
 # Cursor colors
 [colors.cursor]
-cursor = "#d3c6aa"
-text = "#2d353b"
+cursor = "#cadee7"
+text = "#cadee7"
 
 # Normal colors
 [colors.normal]
-black   = "#475258"
-red     = "#e67e80"
-green   = "#a7c080"
-yellow  = "#dbbc7f"
-blue    = "#7fbbb3"
-magenta = "#d699b6"
-cyan    = "#83c092"
-white   = "#d3c6aa"
+black = "#1e232e"
+blue = "#D2ACA9"
+cyan = "#99A9CC"
+green = "#6E91BA"
+magenta = "#E3C4BA"
+red = "#927887"
+white = "#edf4f7"
+yellow = "#A393A2"
 
 # Bright colors
 [colors.bright]
-black   = "#475258"
-red     = "#e67e80"
-green   = "#a7c080"
-yellow  = "#dbbc7f"
-blue    = "#7fbbb3"
-magenta = "#d699b6"
-cyan    = "#83c092"
-white   = "#d3c6aa"
+black = "#8d9ba1"
+blue = "#D2ACA9"
+cyan = "#99A9CC"
+green = "#6E91BA"
+magenta = "#E3C4BA"
+red = "#927887"
+white = "#cadee7"
+yellow = "#A393A2"

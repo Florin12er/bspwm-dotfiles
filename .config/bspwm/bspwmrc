@@ -92,7 +92,8 @@ sxhkd -c "$HOME"/.config/bspwm/sxhkdrc2 &
 # Launch picom // If you have old hardware or encounter problems
 # uncomment the picom "--legacy-backends" line and comment the current one.
 #pidof -q picom || { picom --config "$HOME"/.config/bspwm/picom.conf & }
-pidof -q picom || { picom --legacy-backends --config "$HOME"/.config/bspwm/picom.conf & }
+#pidof -q picom || { picom --legacy-backends --config "$HOME"/.config/bspwm/picom.conf & }
+ picom --config "$HOME"/.config/picom/picom.conf &
 
 # Launch dunst notification daemon
 dunst -config "$HOME"/.config/bspwm/dunstrc &

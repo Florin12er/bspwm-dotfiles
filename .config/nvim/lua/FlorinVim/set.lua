@@ -25,6 +25,7 @@ vim.opt_local.conceallevel = 1
 vim.wo.relativenumber = true
 vim.cmd("set number")
 vim.cmd("set relativenumber")
+vim.cmd("TransparentEnable")
 
 vim.o.winfixheight = true
 
@@ -44,6 +45,4 @@ vim.cmd("highlight ColorColumn ctermbg=none guibg=#89b4fa")
 require("notify").setup({
 	background_colour = "#000000",
 })
-require('hologram').setup{
-    auto_display = true -- WIP automatic markdown image display, may be prone to breaking
-}
+

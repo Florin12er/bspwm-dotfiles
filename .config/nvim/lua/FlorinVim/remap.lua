@@ -1,6 +1,6 @@
 vim.g.mapleader = " "
 vim.api.nvim_set_keymap("n", "<Leader>ls", ":LspStart<CR>", { noremap = true, silent = true })
-vim.keymap.set("n", "<leader>w", vim.cmd.w)
+vim.keymap.set("n", "<C-s>", vim.cmd.w)
 vim.keymap.set("n", "<leader>cl", vim.cmd.HighlightColorsOn)
 vim.keymap.set("n", "<leader>q", vim.cmd.q)
 
@@ -177,3 +177,10 @@ vim.keymap.set("n", "<leader>or", ":ObsidianRename<CR>", { noremap = true, silen
 vim.keymap.set("n", "<leader>on", ":ObsidianNew<CR>", { noremap = true, silent = true })
 vim.keymap.set("n", "<leader>os", ":ObsidianSearch<CR>", { noremap = true, silent = true })
 vim.keymap.set("n", "<leader>ol", ":ObsidianLink<CR>", { noremap = true, silent = true })
+
+
+--ollama ai
+vim.keymap.set({ 'n', 'v' }, '<leader>ai', ':Gen<CR>')
+vim.keymap.set({ 'n', 'v' }, '<leader>gc', ':Gen Chat<CR>')
+vim.keymap.set({ 'n', 'v' }, '<leader>ge', ':Gen Enhance_Grammar_Spelling<CR>')
+

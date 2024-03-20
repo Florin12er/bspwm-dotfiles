@@ -23,7 +23,6 @@ set_bspwm_config() {
 }
 source /home/florin/scripts/changetheme.sh Catppuccin-Mocha-Standard-Blue-Dark Tela-circle-dracula
 source /home/florin/scripts/vim-theme.sh catppuccin-mocha
-source /home/florin/scripts/reset.sh nemo
 /home/florin/scripts/rofi_theme.sh "rofi -theme /home/florin/.config/rofi/launchers/type-6/style-1.rasi -show drun"
 /home/florin/scripts/vscode.sh "Catppuccin Mocha" "file-icons"
 starship preset pastel-powerline -o ~/.config/starship.toml
