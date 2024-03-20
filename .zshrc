@@ -5,7 +5,7 @@
 #  ┬  ┬┌─┐┬─┐┌─┐
 #  └┐┌┘├─┤├┬┘└─┐
 #   └┘ ┴ ┴┴└─└─┘
-export EDITOR='vim'
+export EDITOR='nvim'
 export TERM='alacritty'
 export TERMINAL='alacritty'
 export BROWSER='firefox'
@@ -124,7 +124,7 @@ fi
 #  ├─┤│  │├─┤└─┐
 #  ┴ ┴┴─┘┴┴ ┴└─┘
 alias mirrors="sudo reflector --verbose --latest 5 --country 'United States' --age 6 --sort rate --save /etc/pacman.d/mirrorlist"
-
+alias lf=lfrun
 alias grub-update="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias mantenimiento="yay -Sc && sudo pacman -Scc"
 alias purga="sudo pacman -Rns $(pacman -Qtdq) ; sudo fstrim -av"
@@ -152,6 +152,7 @@ alias nano="nvim"
 alias cat="bat"
 alias h="tldr"
 alias file="nemo"
+alias dfile="dolphin"
 
 setopt glob_dots    # no special treatment for file names with a leading dot
 setopt no_auto_menu # require an extra TAB press to open the completion menu
