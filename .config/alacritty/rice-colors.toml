@@ -1,33 +1,33 @@
-# (Aing) Aing Rice
+# (Kanagawa Dragon) Color scheme for Cynthia Rice
 
 # Default colors
 [colors.primary]
-background = "#161a22"
-foreground = "#cadee7"
+background = '#181616'
+foreground = '#c5c9c5'
 
 # Cursor colors
 [colors.cursor]
-cursor = "#cadee7"
-text = "#cadee7"
+cursor = "#8a9a7b"
+text = "#181616"
 
 # Normal colors
 [colors.normal]
-black = "#1e232e"
-blue = "#D2ACA9"
-cyan = "#99A9CC"
-green = "#6E91BA"
-magenta = "#E3C4BA"
-red = "#927887"
-white = "#edf4f7"
-yellow = "#A393A2"
+black = '#0d0c0c'
+blue = '#8ba4b0'
+cyan = '#8ea4a2'
+green = '#8a9a7b'
+magenta = '#a292a3'
+red = '#c4746e'
+white = '#C8C093'
+yellow = '#c4b28a'
 
 # Bright colors
 [colors.bright]
-black = "#8d9ba1"
-blue = "#D2ACA9"
-cyan = "#99A9CC"
-green = "#6E91BA"
-magenta = "#E3C4BA"
-red = "#927887"
-white = "#cadee7"
-yellow = "#A393A2"
+black = '#a6a69c'
+blue = '#7FB4CA'
+cyan = '#7AA89F'
+green = '#87a987'
+magenta = '#938AA9'
+red = '#E46876'
+white = '#c5c9c5'
+yellow = '#E6C384'

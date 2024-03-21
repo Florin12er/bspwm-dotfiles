@@ -184,3 +184,10 @@ vim.keymap.set({ 'n', 'v' }, '<leader>ai', ':Gen<CR>')
 vim.keymap.set({ 'n', 'v' }, '<leader>gc', ':Gen Chat<CR>')
 vim.keymap.set({ 'n', 'v' }, '<leader>ge', ':Gen Enhance_Grammar_Spelling<CR>')
 
+
+-- save fold
+
+vim.keymap.set("n", "zs", ":mkview<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "zl", ":loadview<CR>", { noremap = true, silent = true })
+-- how to load view the view everytime when I open neovim
+vim.cmd("au BufWinEnter ?* silent loadview")

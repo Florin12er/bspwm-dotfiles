@@ -24,3 +24,6 @@ super + shift + a
 
 super + shift + x 
   eww -c "$HOME"/.config/bspwm/rices/z0mbi3/bar open --toggle bar
+
+alt + shift + n
+ exec alacritty -e newsboat
