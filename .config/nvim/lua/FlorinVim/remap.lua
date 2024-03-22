@@ -1,4 +1,5 @@
 vim.g.mapleader = " "
+vim.g.maplocalleader = " "
 vim.api.nvim_set_keymap("n", "<Leader>ls", ":LspStart<CR>", { noremap = true, silent = true })
 vim.keymap.set("n", "<C-s>", vim.cmd.w)
 vim.keymap.set("n", "<leader>cl", vim.cmd.HighlightColorsOn)
@@ -40,6 +41,7 @@ end)
 --telescope
 require("telescope").load_extension("emoji")
 require("telescope").load_extension("nerdy")
+require("telescope").load_extension("neorg")
 vim.api.nvim_set_keymap("n", "<leader>ne", ":Telescope nerdy<CR>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<leader>ej", ":Telescope emoji<CR>", { noremap = true, silent = true })
 local builtin = require("telescope.builtin")
@@ -105,8 +107,8 @@ vim.api.nvim_set_keymap("n", "<C-j>", "<C-w>j", { noremap = true, silent = true 
 -- Move to the window to the right
 -- vim.api.nvim_set_keymap("n", "<C-l>", "<C-w>l", { noremap = true, silent = true })
 
-vim.api.nvim_set_keymap("n", "<C-z>", ":split<CR>", { noremap = true, silent = true })
-vim.api.nvim_set_keymap("n", "<C-v>", ":vsplit<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<leader>hs", ":split<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<leader>vs", ":vsplit<CR>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<C-q>", "<C-w>q", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<C-y>", "<C-w>+", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<C-w>", "<C-w>-", { noremap = true, silent = true })
@@ -119,16 +121,16 @@ vim.keymap.set("n", "<leader>f", vim.lsp.buf.format, {})
 
 --codeium
 
-vim.keymap.set("i", "<C-g>", function()
+vim.keymap.set("i", "<C-c>", function()
 	return vim.fn["codeium#Accept"]()
 end, { expr = true })
-vim.keymap.set("i", "<C-x>", function()
+vim.keymap.set("i", "<C-w>", function()
 	return vim.fn["codeium#Clear"]()
 end, { expr = true })
-vim.keymap.set("i", "<C-b>", function()
+vim.keymap.set("i", "<C-s>", function()
 	return vim.fn["codeium#CycleCompletions"](1)
 end, { expr = true })
-vim.keymap.set("i", "<C-l>", function()
+vim.keymap.set("i", "<C-x>", function()
 	return vim.fn["codeium#CycleCompletions"](-1)
 end, { expr = true })
 --lsp
@@ -140,7 +142,7 @@ vim.api.nvim_create_autocmd("LspAttach", {
 		local opts = { buffer = ev.buf }
 		vim.keymap.set("n", "gD", vim.lsp.buf.declaration, opts)
 		vim.keymap.set("n", "gd", vim.lsp.buf.definition, opts)
-		vim.keymap.set("n", "K", vim.lsp.buf.hover, opts)
+		vim.keymap.set("n", "<leader>h", vim.lsp.buf.hover, opts)
 		vim.keymap.set("n", "gi", vim.lsp.buf.implementation, opts)
 		vim.keymap.set("n", "<C-he>", vim.lsp.buf.signature_help, opts)
 		vim.keymap.set("n", "<space>wa", vim.lsp.buf.add_workspace_folder, opts)
@@ -189,5 +191,3 @@ vim.keymap.set({ 'n', 'v' }, '<leader>ge', ':Gen Enhance_Grammar_Spelling<CR>')
 
 vim.keymap.set("n", "zs", ":mkview<CR>", { noremap = true, silent = true })
 vim.keymap.set("n", "zl", ":loadview<CR>", { noremap = true, silent = true })
--- how to load view the view everytime when I open neovim
-vim.cmd("au BufWinEnter ?* silent loadview")

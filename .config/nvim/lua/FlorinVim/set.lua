@@ -45,4 +45,5 @@ vim.cmd("highlight ColorColumn ctermbg=none guibg=#89b4fa")
 require("notify").setup({
 	background_colour = "#000000",
 })
+require('duckytype').setup{}
 

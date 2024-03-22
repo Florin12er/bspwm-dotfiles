@@ -124,7 +124,8 @@ fi
 #  ├─┤│  │├─┤└─┐
 #  ┴ ┴┴─┘┴┴ ┴└─┘
 alias mirrors="sudo reflector --verbose --latest 5 --country 'United States' --age 6 --sort rate --save /etc/pacman.d/mirrorlist"
-alias lf=lfrun
+alias emacs="emacsclient -c -a 'emacs'"
+alias lf="lfrun"
 alias ai="ollama run mistral"
 alias ai2="ollama run llama2"
 alias iai="ollama run llama2-uncensored"

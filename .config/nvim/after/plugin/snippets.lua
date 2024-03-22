@@ -7,6 +7,7 @@ cmp.setup({
 		{ name = "npm", keyword_length = 4 },
 		{ name = "cmp_lsp_signature_help" },
 		{ name = "codeium" },
+        { name = "neorg" },
 		{ name = "treesitter" },
 		{ name = "emoji" },
 		{ name = "dictionary", keyword_length = 2 },

@@ -36,6 +36,9 @@ Updkting)
 mpv)
 	result "state=floating focus=on rectangle=849x477+0+0 center=on"
 	;;
+Emacs)
+    result "state=tiled"
+    ;;
 Viewnior)
 	result "state=floating focus=on center=on"
 	;;
