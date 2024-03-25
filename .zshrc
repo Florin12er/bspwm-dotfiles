@@ -129,7 +129,6 @@ alias lf="lfrun"
 alias ai="ollama run mistral"
 alias ai2="ollama run llama2"
 alias iai="ollama run llama2-uncensored"
-alias ll="sudo ls -l";
 alias size="ls -lh --blocks=size"
 alias grub-update="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias mantenimiento="yay -Sc && sudo pacman -Scc"
@@ -165,6 +164,7 @@ setopt no_auto_menu # require an extra TAB press to open the completion menu
 
 
 export PATH="$PATH:/home/florin/.cargo/bin"
+export PATH=$PATH:~/go/bin
 export PATH=/usr/bin:$PATH
 export PATH="$PATH:/opt/flutter/bin"
 export PATH="$HOME/bin:$PATH"
