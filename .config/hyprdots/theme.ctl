@@ -2,7 +2,7 @@
 0|Catppuccin-Latte|Catppuccin.catppuccin-vsc~Catppuccin Latte|~/.config/swww/Catppuccin-Latte/abstract_blured.jpg
 0|Decay-Green|decaycs.decay~Decayce|~/.config/swww/Decay-Green/moments_before_desk.png
 0|Rose-Pine|mvllow.rose-pine~Rosé Pine|~/.config/swww/Rose-Pine/nimbus.gif
-1|Tokyo-Night|enkia.tokyo-night~Tokyo Night Storm|~/.config/swww/Tokyo-Night/wp11505816-tokyo-4k-aesthetic-wallpapers.jpg
+1|Tokyo-Night|enkia.tokyo-night~Tokyo Night Storm|~/.config/swww/Tokyo-Night/2825704.gif
 0|Material-Sakura|mvllow.rose-pine~Rosé Pine Dawn|~/.config/swww/Material-Sakura/material_pastel_7.jpg
 0|Graphite-Mono|StepanVanzuriak.mono~mono dark|~/.config/swww/Graphite-Mono/spring_bloom.jpg
 0|Cyberpunk-Edge|JWSandeman.cyberpunk2077-theme~cyberpunk2077|~/.config/swww/Cyberpunk-Edge/cyberpunk_car.png
