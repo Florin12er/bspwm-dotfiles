@@ -121,7 +121,7 @@ vim.keymap.set("n", "<leader>f", vim.lsp.buf.format, {})
 
 --codeium
 
-vim.keymap.set("i", "<C-c>", function()
+vim.keymap.set("i", "<C-a>", function()
 	return vim.fn["codeium#Accept"]()
 end, { expr = true })
 vim.keymap.set("i", "<C-w>", function()
@@ -130,7 +130,7 @@ end, { expr = true })
 vim.keymap.set("i", "<C-s>", function()
 	return vim.fn["codeium#CycleCompletions"](1)
 end, { expr = true })
-vim.keymap.set("i", "<C-x>", function()
+vim.keymap.set("i", "<C-c>", function()
 	return vim.fn["codeium#CycleCompletions"](-1)
 end, { expr = true })
 --lsp
