@@ -1,5 +1,5 @@
 super + shift + w
-  rofi -show wifi -modi 'wifi:iwdrofimenu' -theme /home/florin/.config/rofi/launchers/type-3/style-9.rasi
+ /home/florin/.config/bspwm/scripts/NetManagerDM
 
 super + BackSpace
   exec /home/florin/.config/rofi/powermenu/type-4/powermenu.sh
@@ -25,5 +25,5 @@ super + shift + a
 super + shift + x 
   eww -c "$HOME"/.config/bspwm/rices/z0mbi3/bar open --toggle bar
 
-alt + shift + n
+super + shift + n
  exec alacritty -e newsboat

@@ -5,7 +5,12 @@
 #   ███╔╝  ████╔╝██║██║╚██╔╝██║██╔══██╗██║ ╚═══██╗    ██╔══██╗██║██║     ██╔══╝
 #  ███████╗╚██████╔╝██║ ╚═╝ ██║██████╔╝██║██████╔╝    ██║  ██║██║╚██████╗███████╗
 #  ╚══════╝ ╚═════╝ ╚═╝     ╚═╝╚═════╝ ╚═╝╚═════╝     ╚═╝  ╚═╝╚═╝ ╚═════╝╚══════╝
+#  Author  :  z0mbi3
+#  Url     :  https://github.com/gh0stzk/dotfiles
+#  About   :  This file will configure and launch the rice.
+#
 
+# Set bspwm configuration for z0mbi3
 set_bspwm_config() {
 	bspc config border_width 0
 	bspc config top_padding 3
@@ -17,14 +22,6 @@ set_bspwm_config() {
 	bspc config focused_border_color "#3d414f"
 	bspc config presel_feedback_color "#90ceaa"
 }
-
-source /home/florin/scripts/changetheme.sh Catppuccin-Mocha-Standard-Blue-Dark Tela-circle-blue
-source /home/florin/scripts/vim-theme.sh catppuccin-mocha
-source /home/florin/scripts/reset.sh nemo
-/home/florin/scripts/rofi_theme.sh "rofi -theme /home/florin/.config/rofi/launchers/type-3/style-2.rasi -show drun"
-/home/florin/scripts/vscode.sh "Sweet Dracula" "file-icons"
-starship preset nerd-font-symbols -o ~/.config/starship.toml
-feh --bg-fill /home/florin/.config/bspwm/rices/z0mbi3/walls/wp8973958-4k-zombie-aesthetic-wallpapers.jpg
 
 pidof -q bspc && pkill -9 bspc >/dev/null
 
@@ -138,18 +135,27 @@ set_jgmenu_colors() {
 set_launcher_config() {
 	sed -i "$HOME/.config/bspwm/scripts/Launcher.rasi" \
 		-e '22s/\(font: \).*/\1"JetBrainsMono NF Bold 9";/' \
-		-e 's/\(background: \).*/\1#0b0d16;/' \
-		-e 's/\(background-alt: \).*/\1#0b0d16C7;/' \
+		-e 's/\(background: \).*/\1#0d0f18;/' \
+		-e 's/\(background-alt: \).*/\1#0d0f18C7;/' \
 		-e 's/\(foreground: \).*/\1#a5b6cf;/' \
-		-e 's/\(selected: \).*/\1#087152;/' \
-		-e 's/[^/]*-rofi/gh-rofi/'
+		-e 's/\(selected: \).*/\1#90ceaa;/' \
+		-e "s/rices\/[[:alnum:]\-]*/rices\/${RICETHEME}/g"
+
+	# NetworkManager launcher
+	sed -i "$HOME/.config/bspwm/scripts/NetManagerDM.rasi" \
+		-e '12s/\(background: \).*/\1#0d0f18;/' \
+		-e '13s/\(background-alt: \).*/\1#151720;/' \
+		-e '14s/\(foreground: \).*/\1#a5b6cf;/' \
+		-e '15s/\(selected: \).*/\1#c296eb;/' \
+		-e '16s/\(active: \).*/\1#90ceaa;/' \
+		-e '17s/\(urgent: \).*/\1#dd6777;/'
 
 	# WallSelect menu colors
 	sed -i "$HOME/.config/bspwm/scripts/WallSelect.rasi" \
-		-e 's/\(main-bg: \).*/\1#0b0d16E6;/' \
+		-e 's/\(main-bg: \).*/\1#0d0f18E6;/' \
 		-e 's/\(main-fg: \).*/\1#a5b6cf;/' \
-		-e 's/\(select-bg: \).*/\1#087152;/' \
-		-e 's/\(select-fg: \).*/\1#0b0d16;/'
+		-e 's/\(select-bg: \).*/\1#90ceaa;/' \
+		-e 's/\(select-fg: \).*/\1#0d0f18;/'
 }
 
 # Launch the bar and or eww widgets

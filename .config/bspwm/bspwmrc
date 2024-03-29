@@ -36,8 +36,8 @@ else
 fi
 # create workspaces
 # create workspaces
-xrandr --output DisplayPort-2 --mode 1920x1080 --rate 240.00 --pos 0x0
-xrandr --output DisplayPort-1 --mode 2560x1440 --rate 240.00 --pos 1920x0
+xrandr --output DisplayPort-1 --mode 1920x1080 --rate 240.00 --pos 0x0
+xrandr --output DisplayPort-2 --mode 2560x1440 --rate 240.00 --pos 1920x0
 ## For two or three monitors configuration see https://github.com/gh0stzk/dotfiles/wiki/Two-or-more-monitors-setup
 
 #  ╔╗ ╔═╗╔═╗╦ ╦╔╦╗  ╔═╗╔═╗╔╗╔╔═╗╦╔═╗

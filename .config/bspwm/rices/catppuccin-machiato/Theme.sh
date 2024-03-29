@@ -1,15 +1,16 @@
 #!/usr/bin/env bash
-#  ____    _  _____ ____  ____  _   _  ____ ____ ___ _   _       __  __    _
-#  / ___|  / \|_   _|  _ \|  _ \| | | |/ ___/ ___|_ _| \ | |     |  \/  |  / \
-# | |     / _ \ | | | |_) | |_) | | | | |  | |    | ||  \| |_____| |\/| | / _ \
-# | |___ / ___ \| | |  __/|  __/| |_| | |__| |___ | || |\  |_____| |  | |/ ___ \
-#  \____/_/   \_\_| |_|   |_|    \___/ \____\____|___|_| \_|     |_|  |_/_/   \_\
+#  ███████╗███╗   ███╗██╗██╗     ██╗ █████╗     ██████╗ ██╗ ██████╗███████╗
+#  ██╔════╝████╗ ████║██║██║     ██║██╔══██╗    ██╔══██╗██║██╔════╝██╔════╝
+#  █████╗  ██╔████╔██║██║██║     ██║███████║    ██████╔╝██║██║     █████╗
+#  ██╔══╝  ██║╚██╔╝██║██║██║     ██║██╔══██║    ██╔══██╗██║██║     ██╔══╝
+#  ███████╗██║ ╚═╝ ██║██║███████╗██║██║  ██║    ██║  ██║██║╚██████╗███████╗
+#  ╚══════╝╚═╝     ╚═╝╚═╝╚══════╝╚═╝╚═╝  ╚═╝    ╚═╝  ╚═╝╚═╝ ╚═════╝╚══════╝
+#  Author  :  z0mbi3
+#  Url     :  https://github.com/gh0stzk/dotfiles
+#  About   :  This file will configure and launch the rice.
 #
-#   ____ _   _ ___    _  _____ ___
-#  / ___| | | |_ _|  / \|_   _/ _ \
-# | |   | |_| || |  / _ \ | || | | |
-# | |___|  _  || | / ___ \| || |_| |
-#  \____|_| |_|___/_/   \_\_| \___/
+
+# Set bspwm configuration for Emilia
 set_bspwm_config() {
 	bspc config border_width 0
 	bspc config top_padding 56
@@ -22,15 +23,6 @@ set_bspwm_config() {
 	bspc config presel_feedback_color "#7aa2f7"
 }
 
-source /home/florin/scripts/changetheme.sh Catppuccin-Macchiato-Standard-Blue-Dark Tela-circle-blue
-source /home/florin/scripts/vim-theme.sh catppuccin-macchiato
-source /home/florin/scripts/reset.sh nemo
-/home/florin/scripts/rofi_theme.sh "rofi -theme /home/florin/.config/rofi/launchers/type-6/style-10.rasi -show drun"
-/home/florin/scripts/vscode.sh "Catppuccin Macchiato" "file-icons"
-starship preset pastel-powerline -o ~/.config/starship.toml
-feh --bg-fill /home/florin/.config/bspwm/rices/catppuccin-machiato/walls/mountains.png
-
-#
 # Reload terminal colors
 set_term_config() {
 	cat >"$HOME"/.config/alacritty/rice-colors.toml <<EOF
@@ -145,7 +137,16 @@ set_launcher_config() {
 		-e 's/\(background-alt: \).*/\1#1A1B26E0;/' \
 		-e 's/\(foreground: \).*/\1#c0caf5;/' \
 		-e 's/\(selected: \).*/\1#7aa2f7;/' \
-		-e 's/[^/]*-rofi/em-rofi/'
+		-e "s/rices\/[[:alnum:]\-]*/rices\/${RICETHEME}/g"
+
+	# NetworkManager launcher
+	sed -i "$HOME/.config/bspwm/scripts/NetManagerDM.rasi" \
+		-e '12s/\(background: \).*/\1#1A1B26;/' \
+		-e '13s/\(background-alt: \).*/\1#222330;/' \
+		-e '14s/\(foreground: \).*/\1#c0caf5;/' \
+		-e '15s/\(selected: \).*/\1#7aa2f7;/' \
+		-e '16s/\(active: \).*/\1#9ece6a;/' \
+		-e '17s/\(urgent: \).*/\1#f7768e;/'
 
 	# WallSelect menu colors
 	sed -i "$HOME/.config/bspwm/scripts/WallSelect.rasi" \
