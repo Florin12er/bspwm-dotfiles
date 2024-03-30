@@ -1,0 +1,4 @@
+{"timestamp":1690358,"category":"fog.validation","name":"validate_early_event"}
+{"timestamp":1690861,"category":"webcompatreporting","name":"reason_dropdown","extra":{"setting":"required"}}
+{"timestamp":1691086,"category":"nimbus_events","name":"enroll_failed","extra":{"reason":"feature-conflict","experiment":"spocs-endpoint-rollout-release"}}
+{"timestamp":1691131,"category":"nimbus_events","name":"is_ready"}

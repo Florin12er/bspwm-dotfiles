@@ -164,8 +164,10 @@ setopt no_auto_menu # require an extra TAB press to open the completion menu
 
 
 export PATH="$PATH:/home/florin/.cargo/bin"
+export PATH="$HOME/.tmuxifier/bin:$PATH"
 export PATH=$PATH:~/go/bin
 export PATH=/usr/bin:$PATH
+eval "$(tmuxifier init -)"
 export PATH="$PATH:/opt/flutter/bin"
 export PATH="$HOME/bin:$PATH"
 export PATH="$PATH:/usr/bin"

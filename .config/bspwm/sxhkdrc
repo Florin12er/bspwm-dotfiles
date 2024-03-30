@@ -24,7 +24,7 @@ super + a
 
 # Apps (browser, editor, filemanager)
 shift + alt + b
-   exec flatpak run io.gitlab.librewolf-community
+   exec firefox
 
 shift + alt + c
   exec code

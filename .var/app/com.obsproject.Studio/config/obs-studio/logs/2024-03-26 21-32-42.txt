@@ -1,0 +1,143 @@
+21:32:42.832: Platform: Wayland
+21:32:42.832: CPU Name: 11th Gen Intel(R) Core(TM) i5-11400F @ 2.60GHz
+21:32:42.832: CPU Speed: 4207.922MHz
+21:32:42.832: Physical Cores: 6, Logical Cores: 12
+21:32:42.832: Physical Memory: 15876MB Total, 1748MB Free
+21:32:42.832: Kernel Version: Linux 6.8.1-arch1-1
+21:32:42.832: Flatpak Branch: stable
+21:32:42.832: Flatpak Arch: x86_64
+21:32:42.832: Flatpak Runtime: runtime/org.kde.Platform/x86_64/6.6
+21:32:42.832: App Extensions:
+21:32:42.832:  - com.obsproject.Studio.Plugin.DroidCam
+21:32:42.832:  - com.obsproject.Studio.Locale
+21:32:42.832: Runtime Extensions:
+21:32:42.832:  - org.freedesktop.Platform.GL.default
+21:32:42.832:  - org.freedesktop.Platform.openh264
+21:32:42.832:  - org.gtk.Gtk3theme.Catppuccin-Mocha
+21:32:42.832:  - org.kde.KStyle.Adwaita
+21:32:42.832:  - org.kde.Platform.Locale
+21:32:42.832:  - org.freedesktop.Platform.GL.default
+21:32:42.832: Flatpak Framework Version: 1.15.6
+21:32:42.832: Desktop Environment: Hyprland (Hyprland)
+21:32:42.832: Session Type: wayland
+21:32:42.833: Qt Version: 6.6.2 (runtime), 6.6.2 (compiled)
+21:32:42.833: Portable mode: false
+21:32:42.884: OBS 30.1.1 (linux)
+21:32:42.884: ---------------------------------
+21:32:42.885: ---------------------------------
+21:32:42.885: audio settings reset:
+21:32:42.885: 	samples per sec: 48000
+21:32:42.885: 	speakers:        2
+21:32:42.885: 	max buffering:   960 milliseconds
+21:32:42.885: 	buffering type:  dynamically increasing
+21:32:42.887: ---------------------------------
+21:32:42.887: Initializing OpenGL...
+21:32:42.887: Using EGL/Wayland
+21:32:42.908: Initialized EGL 1.5
+21:32:42.919: Loading up OpenGL on adapter AMD AMD Radeon RX 6600 (radeonsi, navi23, LLVM 17.0.6, DRM 3.57, 6.8.1-arch1-1)
+21:32:42.919: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 24.0.3 (git-c4d371fa7e), shading language 4.60
+21:32:42.942: ---------------------------------
+21:32:42.942: video settings reset:
+21:32:42.942: 	base resolution:   2560x1440
+21:32:42.942: 	output resolution: 1920x1080
+21:32:42.942: 	downscale filter:  Bicubic
+21:32:42.942: 	fps:               60/1
+21:32:42.942: 	format:            NV12
+21:32:42.942: 	YUV mode:          Rec. 709/Partial
+21:32:42.943: NV12 texture support enabled
+21:32:42.943: P010 texture support not available
+21:32:42.946: Audio monitoring device:
+21:32:42.946: 	name: Default
+21:32:42.946: 	id: default
+21:32:42.946: ---------------------------------
+21:32:42.957: No AJA devices found, skipping loading AJA UI plugin
+21:32:42.957: Failed to initialize module 'aja-output-ui.so'
+21:32:42.966: No AJA devices found, skipping loading AJA plugin
+21:32:42.966: Failed to initialize module 'aja.so'
+21:32:42.969: Failed to load 'en-US' text for module: 'decklink-captions.so'
+21:32:42.973: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+21:32:42.976: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+21:32:42.976: Failed to initialize module 'decklink.so'
+21:32:43.114: [pipewire] Available captures:
+21:32:43.114: [pipewire]     - Desktop capture
+21:32:43.114: [pipewire]     - Window capture
+21:32:43.134: [obs-browser]: Version 2.23.4
+21:32:43.134: [obs-browser]: CEF Version 103.0.5060.134 (runtime), 103.0.0-5060-shared-textures.2594+g17f8588+chromium-103.0.5060.134 (compiled)
+21:32:43.145: VAAPI: API version 1.19
+21:32:43.146: FFmpeg VAAPI H264 encoding supported
+21:32:43.151: FFmpeg VAAPI AV1 encoding not supported
+21:32:43.156: FFmpeg VAAPI HEVC encoding supported
+21:32:43.211: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.4.2 | RPC Version: 1)
+21:32:43.211: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.6.2 | Qt version (run-time): 6.6.2
+21:32:43.211: [obs-websocket] [obs_module_load] Linked ASIO Version: 102900
+21:32:43.216: [obs-websocket] [obs_module_load] Module loaded.
+21:32:43.226: [rtmp-services plugin] Remote update of URL "https://obsproject.com/obs2_update/rtmp-services/v5/package.json" failed: Could not resolve host: obsproject.com
+21:32:43.233: ---------------------------------
+21:32:43.233:   Loaded Modules:
+21:32:43.233:     droidcam-obs.so
+21:32:43.233:     text-freetype2.so
+21:32:43.233:     rtmp-services.so
+21:32:43.233:     obs-x264.so
+21:32:43.233:     obs-websocket.so
+21:32:43.233:     obs-webrtc.so
+21:32:43.233:     obs-vst.so
+21:32:43.233:     obs-transitions.so
+21:32:43.233:     obs-qsv11.so
+21:32:43.233:     obs-outputs.so
+21:32:43.233:     obs-libfdk.so
+21:32:43.233:     obs-filters.so
+21:32:43.233:     obs-ffmpeg.so
+21:32:43.233:     obs-browser.so
+21:32:43.233:     linux-v4l2.so
+21:32:43.233:     linux-pulseaudio.so
+21:32:43.233:     linux-pipewire.so
+21:32:43.233:     linux-jack.so
+21:32:43.233:     linux-capture.so
+21:32:43.233:     image-source.so
+21:32:43.233:     frontend-tools.so
+21:32:43.233:     decklink-output-ui.so
+21:32:43.233:     decklink-captions.so
+21:32:43.233: ---------------------------------
+21:32:43.233: QWidget::setTabOrder: 'first' and 'second' must be in the same window
+21:32:43.233: ==== Startup complete ===============================================
+21:32:43.250: All scene data cleared
+21:32:43.250: ------------------------------------------------
+21:32:43.253: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.4) 15.0.0'
+21:32:43.253: pulse-input: Audio format: s24le, 48000 Hz, 2 channels
+21:32:43.253: pulse-input: Sample format s24le not supported by OBS,using float32le instead for recording
+21:32:43.253: pulse-input: Started recording from 'alsa_output.usb-SteelSeries_Arctis_Nova_Pro_Wireless-00.analog-stereo.monitor' (default)
+21:32:43.253: [Loaded global audio device]: 'Desktop Audio'
+21:32:43.253: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.4) 15.0.0'
+21:32:43.253: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+21:32:43.253: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo' (default)
+21:32:43.254: [Loaded global audio device]: 'Mic/Aux'
+21:32:43.254: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.4) 15.0.0'
+21:32:43.254: pulse-input: An error occurred while getting the source info!
+21:32:43.254: [DroidCamOBS] Source: "DroidCam OBS" - 232
+21:32:43.254: [DroidCamOBS] checking adb
+21:32:43.275: [DroidCamOBS] usbmuxd not found, iOS USB support not available
+21:32:43.275: [DroidCamOBS] activated=1, deactivateWNS=0, is_showing=0, enable_audio=0
+21:32:43.275: [DroidCamOBS] video_format=avc video_resolution=640x480
+21:32:43.275: [DroidCamOBS] device_info.id=R5CN70JMV2Z device_info.ip=127.0.0.1 device_info.port=4747 device_info.type=2
+21:32:43.275: [DroidCamOBS] video_thread start
+21:32:43.275: [DroidCamOBS] video_decode_thread start
+21:32:43.275: [DroidCamOBS] audio_thread start
+21:32:43.277: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.4) 15.0.0'
+21:32:43.277: pulse-input: Audio format: s24le, 48000 Hz, 2 channels
+21:32:43.277: pulse-input: Sample format s24le not supported by OBS,using float32le instead for recording
+21:32:43.277: pulse-input: Started recording from 'alsa_output.usb-SteelSeries_Arctis_Nova_Pro_Wireless-00.analog-stereo.monitor'
+21:32:43.277: PipeWire initialized
+21:32:43.279: Switched to scene 'Scene'
+21:32:43.279: ------------------------------------------------
+21:32:43.279: Loaded scenes:
+21:32:43.279: - scene 'Scene':
+21:32:43.279:     - source: 'Audio Input Capture (PulseAudio)' (pulse_input_capture)
+21:32:43.279:     - source: 'DroidCam OBS' (droidcam_obs)
+21:32:43.279:     - source: 'Audio Output Capture (PulseAudio)' (pulse_output_capture)
+21:32:43.279:     - source: 'Screen Capture (PipeWire)' (pipewire-desktop-capture-source)
+21:32:43.279: ------------------------------------------------
+21:32:43.321: [pipewire] Screencast session created
+21:32:43.824: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Mic/Aux)
+21:32:43.824: 
+21:32:44.016: adding 64 milliseconds of audio buffering, total audio buffering is now 85 milliseconds (source: Audio Output Capture (PulseAudio))
+21:32:44.016: 

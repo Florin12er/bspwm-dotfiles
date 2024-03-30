@@ -191,3 +191,12 @@ vim.keymap.set({ 'n', 'v' }, '<leader>ge', ':Gen Enhance_Grammar_Spelling<CR>')
 
 vim.keymap.set("n", "zs", ":mkview<CR>", { noremap = true, silent = true })
 vim.keymap.set("n", "zl", ":loadview<CR>", { noremap = true, silent = true })
+
+
+-- vim test
+
+vim.keymap.set("n", "<leader>t", ":TestNearest<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>T", ":TestFile<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>ta", ":TestSuite<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>tl", ":TestVisit<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>tl", ":TestLast<CR>", { noremap = true, silent = true })

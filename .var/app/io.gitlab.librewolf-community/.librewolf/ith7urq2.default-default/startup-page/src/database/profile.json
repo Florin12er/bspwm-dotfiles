@@ -1,0 +1,21 @@
+{
+    "username": "noriaku",
+    
+    "country": "Peru",
+    "city": "Lima",
+
+    "categories": {
+        "work": {
+            "slack": "https://slack.com/",
+            "trello": "https://trello.com"
+        },
+        "news": {
+            "xataka": "https://xataka.com",
+            "theverge": "https://theverge.com"
+        },
+        "social": {
+            "github": "https://github.com",
+            "reddit": "https://reddit.com"
+        }
+    }
+}
