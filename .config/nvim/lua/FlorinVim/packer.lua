@@ -17,7 +17,7 @@ require("lazy").setup({
 		{ "rose-pine/neovim", name = "rose-pine" },
 		"nvimtools/none-ls.nvim",
 		"nyoom-engineering/oxocarbon.nvim",
-        "kwakzalver/duckytype.nvim",
+		"kwakzalver/duckytype.nvim",
 		{
 			"David-Kunz/gen.nvim",
 			opts = {
@@ -379,11 +379,12 @@ require("lazy").setup({
 		"windwp/nvim-ts-autotag",
 		"ThePrimeagen/harpoon",
 		"mbbill/undotree",
-        {"vim-test/vim-test",
-            dependencies = {
-                "preservim/vimux",
-            }
-        },
+		{
+			"vim-test/vim-test",
+			dependencies = {
+				"preservim/vimux",
+			},
+		},
 		"tpope/vim-fugitive",
 		"norcalli/nvim-colorizer.lua",
 		{

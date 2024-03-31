@@ -1,0 +1,167 @@
+15:58:38.469: [Safe Mode] Unclean shutdown detected!
+15:58:43.164: [Safe Mode] User elected to launch normally.
+15:58:43.173: Platform: Wayland
+15:58:43.173: CPU Name: 11th Gen Intel(R) Core(TM) i5-11400F @ 2.60GHz
+15:58:43.173: CPU Speed: 4200.000MHz
+15:58:43.173: Physical Cores: 6, Logical Cores: 12
+15:58:43.173: Physical Memory: 15876MB Total, 12617MB Free
+15:58:43.173: Kernel Version: Linux 6.8.2-arch2-1
+15:58:43.173: Flatpak Branch: stable
+15:58:43.173: Flatpak Arch: x86_64
+15:58:43.173: Flatpak Runtime: runtime/org.kde.Platform/x86_64/6.6
+15:58:43.173: App Extensions:
+15:58:43.173:  - com.obsproject.Studio.Plugin.DroidCam
+15:58:43.173:  - com.obsproject.Studio.Locale
+15:58:43.173: Runtime Extensions:
+15:58:43.173:  - org.freedesktop.Platform.GL.default
+15:58:43.173:  - org.freedesktop.Platform.openh264
+15:58:43.173:  - org.gtk.Gtk3theme.Catppuccin-Mocha
+15:58:43.173:  - org.kde.KStyle.Adwaita
+15:58:43.173:  - org.kde.Platform.Locale
+15:58:43.173:  - org.freedesktop.Platform.GL.default
+15:58:43.173: Flatpak Framework Version: 1.15.6
+15:58:43.173: Desktop Environment: Hyprland (Hyprland)
+15:58:43.173: Session Type: wayland
+15:58:43.174: Qt Version: 6.6.2 (runtime), 6.6.2 (compiled)
+15:58:43.174: Portable mode: false
+15:58:43.195: OBS 30.1.1 (linux)
+15:58:43.195: ---------------------------------
+15:58:43.196: ---------------------------------
+15:58:43.196: audio settings reset:
+15:58:43.196: 	samples per sec: 48000
+15:58:43.196: 	speakers:        2
+15:58:43.196: 	max buffering:   960 milliseconds
+15:58:43.196: 	buffering type:  dynamically increasing
+15:58:43.200: ---------------------------------
+15:58:43.200: Initializing OpenGL...
+15:58:43.200: Using EGL/Wayland
+15:58:43.297: Initialized EGL 1.5
+15:58:43.312: Loading up OpenGL on adapter AMD AMD Radeon RX 6600 (radeonsi, navi23, LLVM 17.0.6, DRM 3.57, 6.8.2-arch2-1)
+15:58:43.312: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 24.0.3 (git-c4d371fa7e), shading language 4.60
+15:58:43.347: ---------------------------------
+15:58:43.347: video settings reset:
+15:58:43.347: 	base resolution:   2560x1440
+15:58:43.347: 	output resolution: 2560x1440
+15:58:43.347: 	downscale filter:  Bicubic
+15:58:43.347: 	fps:               60/1
+15:58:43.347: 	format:            NV12
+15:58:43.347: 	YUV mode:          Rec. 709/Partial
+15:58:43.349: NV12 texture support enabled
+15:58:43.349: P010 texture support not available
+15:58:43.352: Audio monitoring device:
+15:58:43.352: 	name: Default
+15:58:43.352: 	id: default
+15:58:43.352: ---------------------------------
+15:58:43.369: No AJA devices found, skipping loading AJA UI plugin
+15:58:43.369: Failed to initialize module 'aja-output-ui.so'
+15:58:43.383: No AJA devices found, skipping loading AJA plugin
+15:58:43.383: Failed to initialize module 'aja.so'
+15:58:43.387: Failed to load 'en-US' text for module: 'decklink-captions.so'
+15:58:43.392: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+15:58:43.395: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+15:58:43.395: Failed to initialize module 'decklink.so'
+15:58:43.600: [pipewire] Available captures:
+15:58:43.601: [pipewire]     - Desktop capture
+15:58:43.601: [pipewire]     - Window capture
+15:58:43.630: [obs-browser]: Version 2.23.4
+15:58:43.630: [obs-browser]: CEF Version 103.0.5060.134 (runtime), 103.0.0-5060-shared-textures.2594+g17f8588+chromium-103.0.5060.134 (compiled)
+15:58:43.658: VAAPI: API version 1.19
+15:58:43.660: FFmpeg VAAPI H264 encoding supported
+15:58:43.665: FFmpeg VAAPI AV1 encoding not supported
+15:58:43.670: FFmpeg VAAPI HEVC encoding supported
+15:58:43.743: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.4.2 | RPC Version: 1)
+15:58:43.743: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.6.2 | Qt version (run-time): 6.6.2
+15:58:43.743: [obs-websocket] [obs_module_load] Linked ASIO Version: 102900
+15:58:43.748: [obs-websocket] [obs_module_load] Module loaded.
+15:58:43.769: ---------------------------------
+15:58:43.769:   Loaded Modules:
+15:58:43.769:     droidcam-obs.so
+15:58:43.769:     text-freetype2.so
+15:58:43.769:     rtmp-services.so
+15:58:43.769:     obs-x264.so
+15:58:43.769:     obs-websocket.so
+15:58:43.769:     obs-webrtc.so
+15:58:43.769:     obs-vst.so
+15:58:43.769:     obs-transitions.so
+15:58:43.769:     obs-qsv11.so
+15:58:43.769:     obs-outputs.so
+15:58:43.769:     obs-libfdk.so
+15:58:43.769:     obs-filters.so
+15:58:43.769:     obs-ffmpeg.so
+15:58:43.769:     obs-browser.so
+15:58:43.769:     linux-v4l2.so
+15:58:43.769:     linux-pulseaudio.so
+15:58:43.769:     linux-pipewire.so
+15:58:43.769:     linux-jack.so
+15:58:43.769:     linux-capture.so
+15:58:43.770:     image-source.so
+15:58:43.770:     frontend-tools.so
+15:58:43.770:     decklink-output-ui.so
+15:58:43.770:     decklink-captions.so
+15:58:43.770: ---------------------------------
+15:58:43.770: QWidget::setTabOrder: 'first' and 'second' must be in the same window
+15:58:43.770: ==== Startup complete ===============================================
+15:58:43.796: All scene data cleared
+15:58:43.796: ------------------------------------------------
+15:58:43.802: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.4) 15.0.0'
+15:58:43.802: pulse-input: Audio format: s24le, 48000 Hz, 2 channels
+15:58:43.802: pulse-input: Sample format s24le not supported by OBS,using float32le instead for recording
+15:58:43.802: pulse-input: Started recording from 'alsa_output.usb-SteelSeries_Arctis_Nova_Pro_Wireless-00.analog-stereo.monitor' (default)
+15:58:43.803: [Loaded global audio device]: 'Desktop Audio'
+15:58:43.803: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.4) 15.0.0'
+15:58:43.803: pulse-input: Audio format: s24le, 48000 Hz, 1 channels
+15:58:43.803: pulse-input: Sample format s24le not supported by OBS,using float32le instead for recording
+15:58:43.803: pulse-input: Started recording from 'alsa_input.usb-Samson_Technologies_Samson_Q9U_ABF62D060D093B00-00.mono-fallback' (default)
+15:58:43.803: [Loaded global audio device]: 'Mic/Aux'
+15:58:43.804: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.4) 15.0.0'
+15:58:43.804: pulse-input: Audio format: s24le, 48000 Hz, 2 channels
+15:58:43.804: pulse-input: Sample format s24le not supported by OBS,using float32le instead for recording
+15:58:43.804: pulse-input: Started recording from 'alsa_output.usb-SteelSeries_Arctis_Nova_Pro_Wireless-00.analog-stereo.monitor'
+15:58:43.804: PipeWire initialized
+15:58:43.804: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.4) 15.0.0'
+15:58:43.805: pulse-input: An error occurred while getting the source info!
+15:58:43.806: Switched to scene 'Scene'
+15:58:43.806: ------------------------------------------------
+15:58:43.806: Loaded scenes:
+15:58:43.806: - scene 'Scene':
+15:58:43.806:     - source: 'Audio Output Capture (PulseAudio)' (pulse_output_capture)
+15:58:43.806:     - source: 'Screen Capture (PipeWire)' (pipewire-desktop-capture-source)
+15:58:43.806:     - source: 'Audio Input Capture (PulseAudio)' (pulse_input_capture)
+15:58:43.806: ------------------------------------------------
+15:58:43.851: [pipewire] Screencast session created
+15:58:44.348: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+15:58:44.348: 
+15:58:44.668: adding 64 milliseconds of audio buffering, total audio buffering is now 85 milliseconds (source: Audio Output Capture (PulseAudio))
+15:58:44.668: 
+15:58:45.234: [pipewire] Asking for desktop
+15:58:45.259: [pipewire] desktop selected, setting up screencast
+15:58:45.266: [pipewire] Server version: 1.0.4
+15:58:45.266: [pipewire] Library version: 0.3.83
+15:58:45.266: [pipewire] Header version: 0.3.83
+15:58:45.266: [pipewire] Created stream 0x5dcf7afb2da0
+15:58:45.266: [pipewire] Stream 0x5dcf7afb2da0 state: "connecting" (error: none)
+15:58:45.266: [pipewire] Playing stream 0x5dcf7afb2da0
+15:58:45.266: [pipewire] Stream 0x5dcf7afb2da0 state: "paused" (error: none)
+15:58:45.272: [pipewire] Stream 0x5dcf7afb2da0 state: "error" (error: no target node available)
+15:58:45.272: [pipewire] Error id:2 seq:8 res:-2 (No such file or directory): no target node available
+15:58:50.129: User Removed source 'Screen Capture (PipeWire)' (pipewire-desktop-capture-source) from scene 'Scene'
+15:58:50.129: [pipewire] Stream 0x5dcf7afb2da0 state: "unconnected" (error: none)
+15:58:56.214: PipeWire initialized
+15:58:56.216: User added source 'Screen Capture (PipeWire)' (pipewire-desktop-capture-source) to scene 'Scene'
+15:58:56.239: [pipewire] Screencast session created
+15:58:57.883: [pipewire] Asking for desktop
+15:58:57.884: [pipewire] desktop selected, setting up screencast
+15:58:57.886: [pipewire] Server version: 1.0.4
+15:58:57.886: [pipewire] Library version: 0.3.83
+15:58:57.886: [pipewire] Header version: 0.3.83
+15:58:57.886: [pipewire] Created stream 0x5dcf79ad37c0
+15:58:57.886: [pipewire] Stream 0x5dcf79ad37c0 state: "connecting" (error: none)
+15:58:57.886: [pipewire] Playing stream 0x5dcf79ad37c0
+15:58:57.886: [pipewire] Stream 0x5dcf79ad37c0 state: "paused" (error: none)
+15:58:57.891: [pipewire] Stream 0x5dcf79ad37c0 state: "error" (error: no target node available)
+15:58:57.891: [pipewire] Error id:2 seq:8 res:-2 (No such file or directory): no target node available
+15:59:11.294: [pipewire] Stream 0x5dcf79ad37c0 state: "error" (error: no target node available)
+15:59:11.294: [pipewire] Error id:2 seq:8 res:-2 (No such file or directory): no target node available
+15:59:11.405: [pipewire] Stream 0x5dcf79ad37c0 state: "error" (error: no target node available)
+15:59:11.405: [pipewire] Error id:2 seq:8 res:-2 (No such file or directory): no target node available
+15:59:11.882: The Wayland connection broke during blocking read event. Did the Wayland compositor die?
