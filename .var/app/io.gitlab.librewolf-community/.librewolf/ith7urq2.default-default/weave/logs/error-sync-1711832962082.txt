@@ -1,0 +1,78 @@
+1711832960207	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1711832960878	Sync.AddonsReconciler	DEBUG	Add-on change: onDisabled to gh0stzk-s-firefox@example.com
+1711832960878	Sync.AddonsReconciler	DEBUG	Rectifying state for addon gh0stzk's homepage (version=1.4.7, id=gh0stzk-s-firefox@example.com)
+1711832960878	Sync.AddonsReconciler	DEBUG	Adding change because enabled state changed: gh0stzk-s-firefox@example.com
+1711832960878	Sync.AddonsReconciler	INFO	Change recorded for gh0stzk-s-firefox@example.com
+1711832960878	Sync.Engine.Addons.Tracker	DEBUG	changeListener invoked: 4 gh0stzk-s-firefox@example.com
+1711832960880	Sync.AddonsReconciler	INFO	Saving reconciler state to file: addonsreconciler
+1711832960889	Sync.AddonsReconciler	DEBUG	Add-on change: onEnabled to gh0stzk-s-firefox@example.com
+1711832960889	Sync.AddonsReconciler	DEBUG	Rectifying state for addon gh0stzk's homepage (version=1.4.7, id=gh0stzk-s-firefox@example.com)
+1711832960889	Sync.AddonsReconciler	DEBUG	Adding change because enabled state changed: gh0stzk-s-firefox@example.com
+1711832960889	Sync.AddonsReconciler	INFO	Change recorded for gh0stzk-s-firefox@example.com
+1711832960889	Sync.Engine.Addons.Tracker	DEBUG	changeListener invoked: 3 gh0stzk-s-firefox@example.com
+1711832960889	Sync.AddonsReconciler	INFO	Saving reconciler state to file: addonsreconciler
+1711832960996	Sync.SyncScheduler	DEBUG	Global Score threshold hit, triggering sync.
+1711832960996	Sync.Service	DEBUG	User-Agent: Firefox/124.0.1-1 (Linux x86_64) FxSync/1.126.0.20240323172101.desktop
+1711832960996	Sync.Service	INFO	Starting sync at 2024-03-30 22:09:20 in browser session 2RISbYvX0qMX
+1711832960996	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1711832960998	Sync.Status	INFO	Resetting Status.
+1711832960998	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1711832960998	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1711832961219	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/212496153/info/collections
+1711832961219	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/212496153/info/configuration
+1711832961219	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1711832961424	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/212496153/info/configuration
+1711832961424	Sync.Service	DEBUG	Fetching global metadata record
+1711832961424	Sync.Service	DEBUG	Weave Version: 1.126.0 Local Storage: 5 Remote Storage: 5
+1711832961424	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1711832961424	Sync.Service	INFO	Testing info/collections: {"extension-storage":1711825533.52,"history":1711832960.02,"addons":1711832800.16,"clients":1711832913.99,"bookmarks":1711832472.95,"tabs":1711832959.57,"meta":1708860703.07,"prefs":1711832959.28,"passwords":1710967640.74,"forms":1711832726.99,"crypto":1708860686.95}
+1711832961424	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 1708860686.95
+1711832961424	Sync.Synchronizer	DEBUG	Refreshing client list.
+1711832961424	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1711832961425	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1711832961631	Sync.Collection	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/212496153/storage/clients?full=1&limit=1000
+1711832961639	Sync.Engine.Clients	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 8 reconciled.
+1711832961639	Sync.Engine.Clients	DEBUG	Refreshing the known stale clients list
+1711832961640	Sync.Engine.Clients	INFO	Hiding stale client 0aFDJsGKQHVQ - in known stale clients list
+1711832961640	Sync.Engine.Clients	INFO	Hiding stale client a-jYsefbzNSq - in known stale clients list
+1711832961640	Sync.Engine.Clients	INFO	Hiding stale client LFotPqd3Q7g5 - in known stale clients list
+1711832961640	Sync.Engine.Clients	INFO	Hiding stale client LFotPqd3Q7g5 with age 2591300.859999895
+1711832961640	Sync.Engine.Clients	INFO	Hiding stale client X0afI1T3V4Q0 - in known stale clients list
+1711832961640	Sync.Engine.Clients	INFO	Hiding stale client X0afI1T3V4Q0 with age 2773203.7000000477
+1711832961640	Sync.Engine.Clients	INFO	Hiding stale client d2VJ2UkYbi2X - in known stale clients list
+1711832961641	Sync.Engine.Clients	INFO	Uploading 0 outgoing records
+1711832961642	Sync.Synchronizer	INFO	Updating enabled engines: 3 clients.
+1711832961644	Sync.Synchronizer	INFO	Syncing all enabled engines.
+1711832961646	Sync.Engine.Prefs	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1711832961646	Sync.Engine.Prefs	INFO	Uploading 1 outgoing records
+1711832961651	Sync.Engine.Prefs	INFO	Posting 1 records of 17643 bytes with batch=true
+1711832961651	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1711832961652	Sync.Collection	DEBUG	POST Length: 17643
+1711832961939	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/212496153/storage/prefs?batch=true&commit=true
+1711832961957	Sync.Engine.Passwords	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1711832961958	Sync.Engine.Passwords	INFO	Uploading 0 outgoing records
+1711832961988	Sync.Engine.Tabs	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1711832961990	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1711832961993	Sync.Engine.Tabs	INFO	Posting 1 records of 619 bytes with batch=true
+1711832961993	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1711832961994	Sync.Collection	DEBUG	POST Length: 619
+1711832962079	Sync.Collection	WARN	POST request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/212496153/storage/tabs?batch=true&commit=true failed: [Exception... "The connection was established, but no data was ever received"  nsresult: "0x804b0014 (NS_ERROR_NET_RESET)"  location: "<unknown>"  data: no] No traceback available
+1711832962079	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1711832962079	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1711832962079	Sync.Status	DEBUG	Status for engine tabs: error.engine.reason.unknown_fail
+1711832962079	Sync.Status	DEBUG	Status.service: error.sync.failed => error.sync.failed_partial
+1711832962079	Sync.ErrorHandler	DEBUG	tabs failed: [Exception... "The connection was established, but no data was ever received"  nsresult: "0x804b0014 (NS_ERROR_NET_RESET)"  location: "<unknown>"  data: no] No traceback available
+1711832962080	Sync.Engine.Bookmarks.BookmarkSyncUtils	DEBUG	pushChanges: Processed change records: {"weak":0,"skipped":0,"updated":0}
+1711832962080	Sync.Status	DEBUG	Status for engine bookmarks: error.engine.reason.unknown_fail
+1711832962080	Sync.Status	DEBUG	Status.service: error.sync.failed_partial => error.sync.failed_partial
+1711832962080	Sync.ErrorHandler	DEBUG	bookmarks was interrupted due to the application shutting down
+1711832962080	Sync.Synchronizer	INFO	bookmarks was interrupted by shutdown; no other engines will sync
+1711832962080	Sync.Synchronizer	INFO	Aborting sync for failure in bookmarks
+1711832962080	Sync.Doctor	INFO	Skipping consultation: telemetry reporting is disabled
+1711832962080	Sync.Synchronizer	INFO	Sync completed at 2024-03-30 22:09:22 after 1.08 secs.
+1711832962081	Sync.Declined	DEBUG	Handling remote declined: []
+1711832962081	Sync.Declined	DEBUG	Handling local declined: []
+1711832962081	Sync.Declined	DEBUG	Declined changed? false
+1711832962081	Sync.Service	INFO	No change to declined engines. Not reuploading meta/global.
+1711832962081	Sync.ErrorHandler	ERROR	Some engines did not sync correctly.
+1711832962081	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)

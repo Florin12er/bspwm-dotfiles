@@ -19,11 +19,11 @@ configuration {
 //----- Global Properties -----//
 
 * {
-font: "Terminess Nerd Font Mono Bold 10";
-background: #232136;
-background-alt: #232136E0;
-foreground: #e0def4;
-selected: #c3a5e6;
+font: "JetBrainsMono NF Bold 9";
+background: #282a36;
+background-alt: #282a36E0;
+foreground: #f8f8f2;
+selected: #bd93f9;
 }
 
 //----- Main Window -----//
