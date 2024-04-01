@@ -65,4 +65,4 @@ require("tokyonight").setup({
 require("gruvbox").setup({
     transparent_mode = true,
 })
-vim.cmd([[colorscheme cyberdream]])
+vim.cmd([[colorscheme tokyonight-moon]])

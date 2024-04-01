@@ -37,7 +37,7 @@ mpv)
 	result "state=floating focus=on rectangle=849x477+0+0 center=on"
 	;;
 Emacs)
-    result "state=tiled"
+    result "state=tiled focus=on"
     ;;
 Viewnior)
 	result "state=floating focus=on center=on"

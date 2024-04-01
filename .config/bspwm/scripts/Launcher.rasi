@@ -20,10 +20,10 @@ configuration {
 
 * {
 font: "JetBrainsMono NF Bold 9";
-background: #282a36;
-background-alt: #282a36E0;
-foreground: #f8f8f2;
-selected: #bd93f9;
+background: #1A1B26;
+background-alt: #1A1B26E0;
+foreground: #c0caf5;
+selected: #7aa2f7;
 }
 
 //----- Main Window -----//

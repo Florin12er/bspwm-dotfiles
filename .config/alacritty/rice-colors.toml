@@ -1,33 +1,33 @@
-# (Dracula) color scheme for Marisol Rice
+# (Tokyo Night) color scheme for Emilia Rice
 
 # Default colors
 [colors.primary]
-background = "#282a36"
-foreground = "#f8f8f2"
+background = "#1a1b26"
+foreground = "#c0caf5"
 
 # Cursor colors
 [colors.cursor]
-cursor = "#f8f8f2"
-text = "#282a36"
+cursor = "#c0caf5"
+text = "#1a1b26"
 
 # Normal colors
 [colors.normal]
-black = "#21222c"
-blue = "#bd93f9"
-cyan = "#8be9fd"
-green = "#50fa7b"
-magenta = "#ff79c6"
-red = "#ff5555"
-white = "#f8f8f2"
-yellow = "#f1fa8c"
+black = "#15161e"
+blue = "#7aa2f7"
+cyan = "#7dcfff"
+green = "#9ece6a"
+magenta = "#bb9af7"
+red = "#f7768e"
+white = "#a9b1d6"
+yellow = "#e0af68"
 
 # Bright colors
 [colors.bright]
-black = "#6272a4"
-blue = "#d6acff"
-cyan = "#a4ffff"
-green = "#69ff94"
-magenta = "#ff92df"
-red = "#ff6e6e"
-white = "#ffffff"
-yellow = "#ffffa5"
+black = "#414868"
+blue = "#7aa2f7"
+cyan = "#7dcfff"
+green = "#9ece6a"
+magenta = "#bb9af7"
+red = "#f7768e"
+white = "#c0caf5"
+yellow = "#e0af68"
