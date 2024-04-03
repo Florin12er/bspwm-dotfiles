@@ -7,12 +7,13 @@ cmp.setup({
 		{ name = "npm", keyword_length = 4 },
 		{ name = "cmp_lsp_signature_help" },
 		{ name = "codeium" },
-        { name = "neorg" },
+		{ name = "neorg", filetype = { "norg", "org" } },
 		{ name = "treesitter" },
 		{ name = "emoji" },
 		{ name = "dictionary", keyword_length = 2 },
 		{ name = "path" },
 		{ name = "buffer-lines" },
+		{ name = "fonts", filetype = { "conf", "config", "css" } },
 		{
 			name = "buffer",
 			option = {
@@ -63,5 +64,4 @@ cmp.setup({
 		}),
 	},
 })
-require("cmp").setup.filetype({ "conf", "config", "css" }, { sources = { { name = "fonts" } } })
 require("cmp-npm").setup({})

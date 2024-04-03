@@ -46,9 +46,11 @@ vim.api.nvim_set_keymap("n", "<leader>ne", ":Telescope nerdy<CR>", { noremap = t
 vim.api.nvim_set_keymap("n", "<leader>ej", ":Telescope emoji<CR>", { noremap = true, silent = true })
 local builtin = require("telescope.builtin")
 vim.keymap.set("n", "<leader>ff", builtin.find_files, {})
-vim.keymap.set("n", "<leader>gg", builtin.live_grep, {})
+vim.keymap.set("n", "<leader>gf", builtin.git_files, {})
+vim.keymap.set("n", "<leader>fg", builtin.live_grep, {})
 vim.keymap.set("n", "<leader>cs", builtin.colorscheme, {})
-vim.keymap.set("n", "<leader>fb", builtin.buffers, {})
+vim.keymap.set("n", "<leader>bb", builtin.buffers, {})
+
 vim.keymap.set("n", "<leader>fs", function()
 	builtin.grep_string({ search = vim.fn.input("Find > ") })
 end)
@@ -65,10 +67,11 @@ vim.api.nvim_set_keymap("t", "<Esc>", "<C-\\><C-n>", { noremap = true, silent = 
 -- close terminal
 vim.api.nvim_set_keymap("t", "<C-q>", "<C-\\><C-n>:q<CR>", { noremap = true, silent = true })
 
+require("terminal").setup()
 require("toggleterm").setup({
 	shade_terminals = false,
 })
-vim.keymap.set("n", "<leader>t", ":ToggleTerm<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>tt", ":ToggleTerm<CR>", { noremap = true, silent = true })
 --harpoon
 local mark = require("harpoon.mark")
 local ui = require("harpoon.ui")
@@ -180,18 +183,15 @@ vim.keymap.set("n", "<leader>on", ":ObsidianNew<CR>", { noremap = true, silent =
 vim.keymap.set("n", "<leader>os", ":ObsidianSearch<CR>", { noremap = true, silent = true })
 vim.keymap.set("n", "<leader>ol", ":ObsidianLink<CR>", { noremap = true, silent = true })
 
-
 --ollama ai
-vim.keymap.set({ 'n', 'v' }, '<leader>ai', ':Gen<CR>')
-vim.keymap.set({ 'n', 'v' }, '<leader>gc', ':Gen Chat<CR>')
-vim.keymap.set({ 'n', 'v' }, '<leader>ge', ':Gen Enhance_Grammar_Spelling<CR>')
-
+vim.keymap.set({ "n", "v" }, "<leader>ai", ":Gen<CR>")
+vim.keymap.set({ "n", "v" }, "<leader>gc", ":Gen Chat<CR>")
+vim.keymap.set({ "n", "v" }, "<leader>ge", ":Gen Enhance_Grammar_Spelling<CR>")
 
 -- save fold
 
 vim.keymap.set("n", "zs", ":mkview<CR>", { noremap = true, silent = true })
 vim.keymap.set("n", "zl", ":loadview<CR>", { noremap = true, silent = true })
-
 
 -- vim test
 

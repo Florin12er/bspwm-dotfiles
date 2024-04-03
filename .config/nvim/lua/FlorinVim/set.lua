@@ -15,16 +15,14 @@ vim.opt.incsearch = true
 
 vim.opt.termguicolors = true
 vim.opt.scrolloff = 8
-vim.opt.signcolumn = "yes"
 vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
-
-vim.wo.number = true
-vim.opt_local.conceallevel = 1
-vim.wo.relativenumber = true
 vim.cmd("set number")
+vim.cmd("set foldcolumn=0")
 vim.cmd("set relativenumber")
+vim.cmd("set signcolumn=no")
+vim.cmd("set cursorline")
 vim.cmd("TransparentEnable")
 
 vim.o.winfixheight = true
@@ -37,13 +35,13 @@ vim.cmd(":set termguicolors")
 vim.cmd([[autocmd VimEnter * LspStart<CR>]])
 vim.opt.updatetime = 50
 vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
-vim.g.python3_host_prog = "/usr/local/bin/python3.12"
-vim.cmd("let $PATH .= ':/home/florin/.nix-profile/bin'")
 vim.opt_local.conceallevel = 2
 --vim.opt.colorcolumn = "100"
 vim.cmd("highlight ColorColumn ctermbg=none guibg=#89b4fa")
 require("notify").setup({
 	background_colour = "#000000",
 })
-require('duckytype').setup{}
+require("duckytype").setup({})
 vim.cmd("let test#strategy = 'vimux'")
+require("codeium").setup({})
+
