@@ -19,10 +19,8 @@ set_bspwm_config() {
 }
 source /home/florin/scripts/changetheme.sh materia-cyberpunk-neon candy-icons
 source /home/florin/scripts/vim-theme.sh cyberdream
-source /home/florin/scripts/reset.sh nemo
 /home/florin/scripts/rofi_theme.sh "rofi -theme /home/florin/.config/rofi/launchers/type-6/style-3.rasi -show drun"
 /home/florin/scripts/vscode.sh "Cyberpunk" "sweet-vscode-icons"
-starship preset tokyo-night -o ~/.config/starship.toml
 feh --bg-fill /home/florin/.config/bspwm/rices/cyberpunk/walls/cyberpunk_car.png
 
 # Reload terminal colors

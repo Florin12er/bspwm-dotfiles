@@ -21,7 +21,6 @@ source /home/florin/scripts/vim-theme.sh nord
 source /home/florin/scripts/reset.sh nemo
 /home/florin/scripts/rofi_theme.sh "rofi -theme /home/florin/.config/rofi/launchers/type-2/style-9.rasi -show drun"
 /home/florin/scripts/vscode.sh "Nord" "file-icons"
-starship preset tokyo-night -o ~/.config/starship.toml
 feh --bg-fill /home/florin/.config/bspwm/rices/frost/walls/strigonian-far-north.png
 
 # Reload terminal colors

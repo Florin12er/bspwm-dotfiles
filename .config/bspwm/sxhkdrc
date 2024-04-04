@@ -18,7 +18,7 @@ super + alt + Return
 
 # Application menu
 super + a
-   exec rofi -theme /home/florin/.config/rofi/dracula.rasi -show drun
+   exec rofi -theme /home/florin/.config/rofi/launchers/type-6/style-7.rasi -show drun
 
 #####
 

@@ -24,6 +24,10 @@ set_bspwm_config() {
 }
 
 pidof -q bspc && pkill -9 bspc >/dev/null
+source /home/florin/scripts/changetheme.sh Catppuccin-Mocha-Standard-Blue-Dark Tela-circle-dracula
+source /home/florin/scripts/vim-theme.sh catppuccin-mocha
+/home/florin/scripts/vscode.sh "Catppuccin Mocha" "file-icons"
+feh --bg-fill /home/florin/.config/bspwm/rices/z0mbi3/walls/wp9024817-4k-zombie-wallpapers.jpg
 
 # Reload terminal colors
 set_term_config() {

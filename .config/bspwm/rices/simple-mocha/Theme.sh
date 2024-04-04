@@ -27,7 +27,7 @@ source /home/florin/scripts/vim-theme.sh catppuccin-mocha
 /home/florin/scripts/rofi_theme.sh "rofi -theme /home/florin/.config/rofi/launchers/type-3/style-2.rasi -show drun"
 /home/florin/scripts/vscode.sh "Catppuccin Mocha" "file-icons"
 starship preset pastel-powerline -o ~/.config/starship.toml
-feh --bg-fill /home/florin/.config/bspwm/rices/simple-mocha/walls/wall-04.webp
+feh --bg-fill /home/florin/.config/bspwm/rices/simple-mocha/walls/wall-02.webp
 
 
 # Reload terminal colors

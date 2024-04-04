@@ -28,11 +28,11 @@ bspc rule -a lf -o state=floating
 INTERNAL_MONITOR="DisplayPort-1"
 EXTERNAL_MONITOR="DisplayPort-2"
 if [[ $(xrandr -q | grep "${EXTERNAL_MONITOR} connected") ]]; then
-	bspc monitor "$EXTERNAL_MONITOR" -d '' '' '' ''
-	bspc monitor "$INTERNAL_MONITOR" -d '' '' '' ''
+	bspc monitor "$EXTERNAL_MONITOR" -d '1' '2' '3' '4'
+	bspc monitor "$INTERNAL_MONITOR" -d '5' '6' '7' '8' 
 	bspc wm -O "$EXTERNAL_MONITOR" "$INTERNAL_MONITOR"
 else
-	bspc monitor "$INTERNAL_MONITOR" -d '' '' '' '' '' '' '' ''
+	bspc monitor "$INTERNAL_MONITOR" -d '1' '2' '3' '4' '5' '6' '7' '8' '9' '10' '11'
 fi
 # create workspaces
 # create workspaces
@@ -101,6 +101,14 @@ emacs --daemon &
 
 # Launch eww daemon
 pidof -q eww || { eww -c "$HOME"/.config/bspwm/eww daemon & }
+bsp-layout set tall 1 &
+bsp-layout set tall 2 &
+bsp-layout set tall 3 &
+bsp-layout set tall 4 &
+bsp-layout set tall 5 &
+bsp-layout set tall 6 &
+bsp-layout set tall 7 &
+bsp-layout set tall 8 &
 
 # Launch polkit
 pidof -q polkit-gnome-authentication-agent-1 || { /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 & }

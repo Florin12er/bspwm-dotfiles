@@ -23,12 +23,11 @@ set_bspwm_config() {
 	bspc config right_padding 2
 	bspc config window_gap 6
 }
-source /home/florin/scripts/changetheme.sh Nord-Black-Frost Tela-circle-nord
+/home/florin/scripts/changetheme.sh Nord-Black-Frost Tela-circle-nord
 source /home/florin/scripts/vim-theme.sh nord
 /home/florin/scripts/rofi_theme.sh "rofi -theme /home/florin/.config/rofi/launchers/type-6/style-7.rasi -show drun"
 /home/florin/scripts/vscode.sh "Nord Deep" "file-icons"
-starship preset tokyo-night -o ~/.config/starship.toml
-feh --bg-fill /home/florin/.config/bspwm/rices/nord/walls/wall-01.webp.~1~
+feh --bg-fill /home/florin/.config/bspwm/rices/nord/walls/wall-04.webp
 
 # Reload terminal colors
 set_term_config() {
@@ -194,18 +193,18 @@ set_appearance() {
 
 	# apply gtk theme, icons, cursor & fonts
 	if [[ `pidof xsettingsd` ]]; then
-		sed -i -e "s|Net/ThemeName .*|Net/ThemeName \"amarena\"|g" ${XFILE}
-		sed -i -e "s|Net/IconThemeName .*|Net/IconThemeName \"Nordzy-pink-dark\"|g" ${XFILE}
+		sed -i -e "s|Net/ThemeName .*|Net/ThemeName \"Nord-Black-Frost\"|g" ${XFILE}
+		sed -i -e "s|Net/IconThemeName .*|Net/IconThemeName \"Tela-circle-nord\"|g" ${XFILE}
 		sed -i -e "s|Gtk/CursorThemeName .*|Gtk/CursorThemeName \"phinger-cursors\"|g" ${XFILE}
 	else
 		sed -i -e "s/gtk-font-name=.*/gtk-font-name=\"Noto Sans 9\"/g" ${GTK2FILE}
-		sed -i -e "s/gtk-theme-name=.*/gtk-theme-name=\"amarena\"/g" ${GTK2FILE}
-		sed -i -e "s/gtk-icon-theme-name=.*/gtk-icon-theme-name=\"Nordzy-pink-dark\"/g" ${GTK2FILE}
+		sed -i -e "s/gtk-theme-name=.*/gtk-theme-name=\"Nord-Black-Frost\"/g" ${GTK2FILE}
+		sed -i -e "s/gtk-icon-theme-name=.*/gtk-icon-theme-name=\"Tela-circle-nord\"/g" ${GTK2FILE}
 		sed -i -e "s/gtk-cursor-theme-name=.*/gtk-cursor-theme-name=\"phinger-cursors\"/g" ${GTK2FILE}
 		
 		sed -i -e "s/gtk-font-name=.*/gtk-font-name=Noto Sans 9/g" ${GTK3FILE}
-		sed -i -e "s/gtk-theme-name=.*/gtk-theme-name=amarena/g" ${GTK3FILE}
-		sed -i -e "s/gtk-icon-theme-name=.*/gtk-icon-theme-name=Nordzy-pink-dark/g" ${GTK3FILE}
+		sed -i -e "s/gtk-theme-name=.*/gtk-theme-name=Nord-Black-Frost/g" ${GTK3FILE}
+		sed -i -e "s/gtk-icon-theme-name=.*/gtk-icon-theme-name=Tela-circle-nord/g" ${GTK3FILE}
 		sed -i -e "s/gtk-cursor-theme-name=.*/gtk-cursor-theme-name=phinger-cursors/g" ${GTK3FILE}
 	fi
 	

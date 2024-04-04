@@ -20,9 +20,6 @@ source /home/florin/scripts/changetheme.sh Catppuccin-Mocha-Standard-Blue-Dark T
 source /home/florin/scripts/vim-theme.sh catppuccin-mocha
 /home/florin/scripts/vscode.sh "Catppuccin Mocha" "file-icons"
 /home/florin/scripts/rofi_theme.sh "rofi -theme /home/florin/.config/rofi/launchers/type-3/style-2.rasi -show drun"
-source /home/florin/scripts/reset.sh nemo
-
-starship preset nerd-font-symbols -o ~/.config/starship.toml
 feh --bg-fill /home/florin/.config/bspwm/rices/nature/walls/matt-carlson-spring-mountain.png
 
 # Reload terminal colors

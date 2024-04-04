@@ -22,6 +22,11 @@ set_bspwm_config() {
 	bspc config focused_border_color "#bb9af7"
 	bspc config presel_feedback_color "#7aa2f7"
 }
+source /home/florin/scripts/changetheme.sh Catppuccin-Machiato-Standard-Blue-Dark Tela-circle-dracula
+source /home/florin/scripts/vim-theme.sh catppuccin-machiato
+/home/florin/scripts/rofi_theme.sh "rofi -theme /home/florin/.config/rofi/launchers/type-6/style-1.rasi -show drun"
+/home/florin/scripts/vscode.sh "Catppuccin Mac" "file-icons"
+feh --bg-fill /home/florin/.config/bspwm/rices/catppuccin-machiato/walls/japan3.jpg
 
 # Reload terminal colors
 set_term_config() {

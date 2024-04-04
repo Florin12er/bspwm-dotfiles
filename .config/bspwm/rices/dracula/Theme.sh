@@ -1,4 +1,3 @@
-#!/usr/bin/env bash
 #  ███╗   ███╗ █████╗ ██████╗ ██╗███████╗ ██████╗ ██╗         ██████╗ ██╗ ██████╗███████╗
 #  ████╗ ████║██╔══██╗██╔══██╗██║██╔════╝██╔═══██╗██║         ██╔══██╗██║██╔════╝██╔════╝
 #  ██╔████╔██║███████║██████╔╝██║███████╗██║   ██║██║         ██████╔╝██║██║     █████╗
@@ -26,7 +25,6 @@ source /home/florin/scripts/changetheme.sh Dracula Tela-circle-dracula
 source /home/florin/scripts/vim-theme.sh dracula
 /home/florin/scripts/rofi_theme.sh "rofi -theme /home/florin/.config/rofi/dracula.rasi -show drun"
 /home/florin/scripts/vscode.sh "Dracula Refined" "file-icons"
-starship preset pastel-powerline -o ~/.config/starship.toml
 feh --bg-fill /home/florin/.config/bspwm/rices/dracula/walls/4341295.png
 
 

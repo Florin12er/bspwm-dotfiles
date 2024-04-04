@@ -28,7 +28,6 @@ source /home/florin/scripts/vim-theme.sh catppuccin-latte
 /home/florin/scripts/vscode.sh "Catppuccin Latte" "file-icons"
 /home/florin/scripts/rofi_theme.sh "rofi -theme /home/florin/.config/rofi/launchers/type-6/style-8.rasi -show drun"
 /home/florin/scripts/wifi.sh ~/.config/rofi/launchers/type-6/style-6.rasi
-starship preset tokyo-night -o ~/.config/starship.toml
 feh --bg-fill ~/.config/bspwm/rices/siduru/walls/wall-01.webp
 
 # Reload terminal colors
