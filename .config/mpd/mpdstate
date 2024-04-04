@@ -1,7 +1,9 @@
 sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
-state: stop
+state: pause
+current: 2
+time: 99.000000
 random: 0
 repeat: 0
 single: 0
@@ -10,4 +12,15 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
+0:Mick Gordon 02 Rip Tear.mp3
+1:[SPOTIFY-DOWNLOADER.COM] At Doom's Gate.mp3
+2:[SPOTIFY-DOWNLOADER.COM] Banii.mp3
+3:[SPOTIFY-DOWNLOADER.COM] Candy Shop.mp3
+4:[SPOTIFY-DOWNLOADER.COM] Chill Day.mp3
+5:[SPOTIFY-DOWNLOADER.COM] Ghost.mp3
+6:[SPOTIFY-DOWNLOADER.COM] How Bout Now.mp3
+7:[SPOTIFY-DOWNLOADER.COM] Just the Way You Are.mp3
+8:[SPOTIFY-DOWNLOADER.COM] Lose Yourself.mp3
+9:[SPOTIFY-DOWNLOADER.COM] Minecraft.mp3
+10:[SPOTIFY-DOWNLOADER.COM] Till I Collapse.mp3
 playlist_end

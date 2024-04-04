@@ -25,7 +25,7 @@ require("zen-mode").setup({
 		tmux = { enabled = true }, -- disables the tmux statusline
 		alacritty = {
 			enabled = true,
-			font = "+4", -- font size
+			font = "13", -- font size
 		},
 	},
 })

@@ -44,4 +44,4 @@ require("notify").setup({
 require("duckytype").setup({})
 vim.cmd("let test#strategy = 'vimux'")
 require("codeium").setup({})
-
+require("nvim-surround").setup({})

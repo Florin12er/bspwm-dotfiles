@@ -1,33 +1,33 @@
-# (Tokyo Night) color scheme for Emilia Rice
+# (Aing) Aing Rice
 
 # Default colors
 [colors.primary]
-background = "#1a1b26"
-foreground = "#c0caf5"
+background = "#161a22"
+foreground = "#cadee7"
 
 # Cursor colors
 [colors.cursor]
-cursor = "#c0caf5"
-text = "#1a1b26"
+cursor = "#cadee7"
+text = "#cadee7"
 
 # Normal colors
 [colors.normal]
-black = "#15161e"
-blue = "#7aa2f7"
-cyan = "#7dcfff"
-green = "#9ece6a"
-magenta = "#bb9af7"
-red = "#f7768e"
-white = "#a9b1d6"
-yellow = "#e0af68"
+black = "#1e232e"
+blue = "#D2ACA9"
+cyan = "#99A9CC"
+green = "#6E91BA"
+magenta = "#E3C4BA"
+red = "#927887"
+white = "#edf4f7"
+yellow = "#A393A2"
 
 # Bright colors
 [colors.bright]
-black = "#414868"
-blue = "#7aa2f7"
-cyan = "#7dcfff"
-green = "#9ece6a"
-magenta = "#bb9af7"
-red = "#f7768e"
-white = "#c0caf5"
-yellow = "#e0af68"
+black = "#8d9ba1"
+blue = "#D2ACA9"
+cyan = "#99A9CC"
+green = "#6E91BA"
+magenta = "#E3C4BA"
+red = "#927887"
+white = "#cadee7"
+yellow = "#A393A2"
