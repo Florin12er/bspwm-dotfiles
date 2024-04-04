@@ -1,3 +1,10 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 #  ╔═╗╔═╗╦ ╦╦═╗╔═╗  ╔═╗╔═╗╔╗╔╔═╗╦╔═╗	- z0mbi3
 #  ╔═╝╚═╗╠═╣╠╦╝║    ║  ║ ║║║║╠╣ ║║ ╦	- https://github.com/gh0stzk/dotfiles
 #  ╚═╝╚═╝╩ ╩╩╚═╚═╝  ╚═╝╚═╝╝╚╝╚  ╩╚═╝	- My zsh conf
@@ -77,13 +84,13 @@ setopt COMPLETE_IN_WORD    # Complete from both ends of a word.
 # }
 #
 # PS1='%B%F{blue}%f%b  %B%F{magenta}%n%f%b $(dir_icon)  %B%F{red}%~%f%b${vcs_info_msg_0_} %(?.%B%F{green}.%F{red})%f%b '
-eval "$(starship init zsh)"
 
 #
 #  ┌─┐┬  ┬ ┬┌─┐┬┌┐┌┌─┐
 #  ├─┘│  │ ││ ┬││││└─┐
 #  ┴  ┴─┘└─┘└─┘┴┘└┘└─┘
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/powerlevel10k/powerlevel10k.zsh-theme
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
 source /usr/share/zsh/plugins/fzf-zsh-plugin/fzf-zsh-plugin.plugin.zsh
@@ -130,10 +137,9 @@ alias add="git add"
 alias commit="git commit"
 alias push="git push"
 alias pull="git pull"
-alias origin="git push --set-upstream origin"
 alias status="git status"
 alias config="git config"
-alias remote="git remote"
+alias remote="git remote add origin"
 alias ai="ollama run mistral"
 alias ai2="ollama run llama2"
 alias iai="ollama run llama2-uncensored"
@@ -161,6 +167,7 @@ alias tree='tree -a -I .git'
 alias lazy="lazygit"
 alias chrome="firefox -new-tab"
 alias vim="nvim"
+alias ivm="nvim"
 alias nano="nvim"
 alias cat="bat"
 alias h="tldr"
@@ -357,3 +364,6 @@ ex=:\
 "
 export PATH=$PATH:/var/lib/snapd/snap/bin
 export PATH=$PATH:/usr/bin/tmux
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
